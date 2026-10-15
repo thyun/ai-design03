@@ -1,0 +1,448 @@
+Date: Tue, 13 Oct 2026 14:08:29 +0900 (KST)
+Message-ID: <1168143336.2274.1791868109343@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2273_1396432126.1791868109338"
+
+------=_Part_2273_1396432126.1791868109338
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=EB=B3=B5=EC=A7=80=ED=8F=AC=EC=9D=B8=ED=8A=B8 =EC=9A=B4=EC=98=81=
+</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=EB=B3=B5=EC=A7=80=ED=8F=AC=EC=9D=B8=ED=8A=B8 =EC=9A=B4=EC=98=81</h=
+1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1791868109317 {padding: 0px;}
+div.rbtoc1791868109317 ul {margin-left: 0px;}
+div.rbtoc1791868109317 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1791868109317">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-=EB=B3=B5=EC=A7=80=ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9A=B4=
+=EC=98=81-DBQuery">DB Query</a></li>
+<li><a href=3D"#id-=EB=B3=B5=EC=A7=80=ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9A=B4=
+=EC=98=81-Nxmile=EC=97=B0=EB=8F=99">Nxmile =EC=97=B0=EB=8F=99</a></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"id-=EB=B3=B5=EC=A7=80=ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9A=B4=EC=98=
+=81-DBQuery">DB Query</h1>
+<div id=3D"expander-1025978347" class=3D"expand-container">
+<div id=3D"expander-control-1025978347" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-1025978347" class=3D"expand-content">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">-- =ED=
+=85=8C=EC=9D=B4=EB=B8=94 =EC=BB=AC=EB=9F=BC =EC=A1=B0=ED=9A=8C
+SELECT * FROM user_tab_columns WHERE table_name =3D'JOYPOT_REWARD_DETAIL';
+SELECT * FROM all_tab_columns@NXM_DL WHERE table_name =3D'EPP_MBR_CRDPNT_TR=
+N';
+
+SELECT * FROM nls_database_parameters WHERE parameter =3D 'NLS_CHARACTERSET=
+';
+
+-- =EB=A7=88=EC=A7=80=EB=A7=89 seq =ED=99=95=EC=9D=B8
+SELECT * FROM ALL_SEQUENCES WHERE sequence_name =3D 'JOYPOT_PARTNER_POSITIO=
+N_SEQ';
+
+-- =EB=B0=B0=EC=A0=95 =EC=9D=B4=EB=A0=A5
+SELECT NVL(SUM(rd.REWARD_POINT), 0)
+FROM POTADM.JOYPOT_REWARD_DETAIL rd
+         INNER JOIN POTADM.JOYPOT_REWARD_REQUEST rr ON rr.SEQ =3D rd.REQUES=
+T_SEQ AND rr.PARTNER_SEQ =3D rd.PARTNER_SEQ
+         INNER JOIN POTADM.JOYPOT_PARTNER_POINT_SETTING pps ON rd.PARTNER_P=
+OINT_SETTING_SEQ =3D pps.SEQ
+         INNER JOIN POTADM.JOYPOT_POINT_SETTING ps ON pps.POINT_SETTING_SEQ=
+ =3D ps.SEQ
+WHERE rd.EMPLOYEE_SEQ =3D 5224  -- JoypotEmployee=EC=9D=98 PK=EC=9D=B8 SEQ=
+=EC=99=80 =EB=A7=A4=ED=95=91
+  AND rd.CREATE_DATE &gt;=3D TO_DATE('2026-01-01 00:00:00', 'YYYY-MM-DD HH2=
+4:MI:SS')  -- =EC=8B=9C=EC=9E=91=EC=9D=BC=EC=9E=90
+  AND rd.CREATE_DATE &lt; TO_DATE('2027-01-01 00:00:00', 'YYYY-MM-DD HH24:M=
+I:SS')   -- =EC=A2=85=EB=A3=8C=EC=9D=BC=EC=9E=90
+  AND rd.RESULT =3D 'SUCCESS'
+  AND rr.STATUS !=3D 'DEL'
+  AND pps.STATUS =3D 'OK'
+  AND ps.TRANS_TYPE =3D 'SAVE'
+  AND ps.STATUS =3D 'OK';
+
+SELECT * FROM SYN_MBR_CRDPNT_TRN
+WHERE CRD_NO in (SELECT CARD_NUMBER FROM JOYPOT_CARD_ISSUE WHERE EMPLOYEE_S=
+EQ=3D5224 AND STATUS !=3D 'DELETE')
+  AND AVL_FR_DY &gt;=3D '20260101'
+ORDER BY AVL_TO_DY ASC;
+
+SELECT * FROM SYN_APR_DEALTR_TRN
+WHERE CRD_NO in (SELECT CARD_NUMBER FROM JOYPOT_CARD_ISSUE WHERE EMPLOYEE_S=
+EQ=3D7378 AND STATUS !=3D 'DELETE')
+  AND SLP_CD in ('01')
+  AND APRV_DY &gt;=3D '20260101';
+
+-- =EC=B0=A8=EA=B0=90 =EC=9D=B4=EB=A0=A5
+SELECT
+    pps.POINT_NAME,
+    rd.RESULT,
+    rd.CREATE_DATE,
+    rr.REASON,
+    rd.REWARD_POINT
+FROM JOYPOT_REWARD_DETAIL rd
+         INNER JOIN JOYPOT_PARTNER_POINT_SETTING pps ON rd.PARTNER_POINT_SE=
+TTING_SEQ =3D pps.seq
+         INNER JOIN JOYPOT_POINT_SETTING ps ON pps.POINT_SETTING_SEQ =3D ps=
+.seq
+         INNER JOIN JOYPOT_REWARD_REQUEST rr ON rd.REQUEST_SEQ =3D rr.seq A=
+ND rr.PARTNER_SEQ =3D pps.PARTNER_SEQ
+WHERE rd.RESULT =3D 'SUCCESS'
+  AND pps.status =3D 'OK'
+  AND ps.status =3D 'OK'
+  AND ps.TRANS_TYPE =3D 'USE'
+  AND rd.EMPLOYEE_SEQ =3D 5226
+ORDER BY rd.CREATE_DATE ASC;
+
+-- =EC=82=AC=EC=9A=A9 =EC=9D=B4=EB=A0=A5 (=EB=B3=B5=EC=A7=80=EC=B9=B4=EB=93=
+=9C/=EC=98=81=EC=88=98=EC=A6=9D =EC=8A=B9=EC=9D=B8 - =EC=96=B4=EB=93=9C=EB=
+=AF=BC =EC=B0=A8=EA=B0=90=EB=B6=84 =EC=A0=9C=EC=99=B8)
+SELECT
+    *
+FROM SYN_APR_DEALTR_TRN
+WHERE CRD_NO IN (SELECT CARD_NUMBER FROM JOYPOT_CARD_ISSUE WHERE EMPLOYEE_S=
+EQ =3D 7378 AND STATUS !=3D 'DELETE')
+  AND JON_USE_SVC_CD =3D 'IC01'
+  AND SLP_CD in ('11', '22', '30')
+  AND PROC_FG in ('00')  -- ON=3D=EB=B3=B5=EC=A7=80=EC=B9=B4=EB=93=9C, 00=
+=3D=EC=98=81=EC=88=98=EC=A6=9D =EC=8A=B9=EC=9D=B8
+  AND APRV_DY &gt;=3D '20260101';
+
+-- =EC=82=AC=EC=9A=A9 =EC=9D=B4=EB=A0=A5 (=EC=96=B4=EB=93=9C=EB=AF=BC =EC=
+=B0=A8=EA=B0=90=EB=B6=84)
+SELECT
+    *
+FROM SYN_APR_DEALTR_TRN
+WHERE CRD_NO IN (SELECT CARD_NUMBER FROM JOYPOT_CARD_ISSUE WHERE EMPLOYEE_S=
+EQ =3D 1442 AND STATUS !=3D 'DELETE')
+  AND JON_USE_SVC_CD =3D 'IC01'
+  AND SLP_CD in ('11', '22', '30')
+  AND PROC_FG !=3D 'ON' AND PROC_FG !=3D '00'
+  AND APRV_DY &gt;=3D '20260101';
+
+-- =EC=98=81=EC=88=98=EC=A6=9D =EC=8A=B9=EC=9D=B8 =EB=82=B4=EC=97=AD
+SELECT
+             e.EMPLOYEE_ID, e.EMPLOYEE_TYPE, e.NAME, p.NAME as POSITION_NAM=
+E,
+             t.BANK_NAME, t.ACCOUNT_NO,
+             t.RECEIPT_DATE, t.REQUEST_POINT,
+             t.MERCHANT_NAME, t.PURCHASE_DETAIL,
+             t.APPROVE_DATE, t.APPROVE_POINT,
+             w.NAME as WELFARE_CATEGORY_NAME,
+             t.RESULT_STATUS
+          FROM JOYPOT_RECEIPT_REQUEST t
+          LEFT JOIN JOYPOT_EMPLOYEE e ON t.EMPLOYEE_SEQ =3D e.SEQ
+          LEFT JOIN JOYPOT_PARTNER_POSITION p ON e.POSITION_SEQ =3D p.SEQ
+          LEFT JOIN JOYPOT_WELFARE_CATEGORY w ON t.WELFARE_CATEGORY_SEQ =3D=
+ w.SEQ
+          WHERE (t.PARTNER_SEQ =3D 7)
+            AND (t.EMPLOYEE_SEQ =3D 1684)
+            AND (t.APPROVE_DATE &gt;=3D TO_DATE('20260201', 'YYYYMMDD') AND=
+ t.APPROVE_DATE &lt; TO_DATE(:'20260228', 'YYYYMMDD'))
+            AND (t.RESULT_STATUS =3D 'SUCCESS')
+          ORDER BY t.APPROVE_DATE ASC
+
+-- =EA=B8=B0=ED=83=80
+SELECT * FROM POTADM.JOYPOT_REWARD_REQUEST jrr
+                  JOIN POTADM.JOYPOT_REWARD_DETAIL jrd ON jrd.REQUEST_SEQ =
+=3D jrr.SEQ AND jrd.PARTNER_SEQ =3D jrr.PARTNER_SEQ
+WHERE jrr.PARTNER_SEQ =3D 1
+  AND jrd.EMPLOYEE_SEQ =3D 5226;</pre>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"id-=EB=B3=B5=EC=A7=80=ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9A=B4=EC=98=
+=81-Nxmile=EC=97=B0=EB=8F=99"><span>Nxmile =EC=97=B0=EB=8F=99</span></h1>
+<ul>
+<li><span>=EA=B8=B0=EA=B4=80=EC=BD=94=EB=93=9C : 965S</span></li>
+<li><span>=ED=8F=AC=ED=8A=B8=EB=B2=88=ED=98=B8 : 26501(=EA=B0=9C=EB=B0=9C) =
+/ 26500(=EC=9A=B4=EC=98=81)</span></li>
+<li><p class=3D"auto-cursor-target">=EB=B0=A9=ED=99=94=EB=B2=BD =EC=98=A4=
+=ED=94=88</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><strong>=
+=EA=B5=AC=EB=B6=84</strong></span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><strong>=
+=EC=B6=9C=EB=B0=9C=EC=A7=80IP</strong></span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><strong>=
+=EB=AA=A9=EC=A0=81=EC=A7=80 NAT IP</strong></span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><strong>=
+=EB=AA=A9=EC=A0=81=EC=A7=80 IP</strong></span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><strong>=
+=EB=AA=A9=EC=A0=81=EC=A7=80PORT</strong></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>=EA=B0=9C=
+=EB=B0=9C=EA=B8=B0</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>=EB=B3=B5=
+=EC=A7=80</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>203.235.2=
+07.155</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>172.29.24=
+8.81</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>26501</sp=
+an></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>=EC=9A=B4=
+=EC=98=81=EA=B8=B0</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>=EB=B3=B5=
+=EC=A7=80</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>203.235.2=
+07.132</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>172.22.18=
+8.233</span></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span>26500</sp=
+an></p></td>
+</tr>
+</tbody>
+</table>
+</div></li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_2273_1396432126.1791868109338--

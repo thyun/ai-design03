@@ -1,0 +1,477 @@
+Date: Tue, 13 Oct 2026 14:07:35 +0900 (KST)
+Message-ID: <792169440.2248.1791868055753@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2247_1632138695.1791868055746"
+
+------=_Part_2247_1632138695.1791868055746
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>20 =EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4 =EC=9A=B4=EC=98=81</titl=
+e>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>20 =EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4 =EC=9A=B4=EC=98=81</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1791868055687 {padding: 0px;}
+div.rbtoc1791868055687 ul {margin-left: 0px;}
+div.rbtoc1791868055687 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1791868055687">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81=
+-=EC=97=B0=EB=8F=99">=EC=97=B0=EB=8F=99</a></li>
+<li><a href=3D"#id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81=
+-Redis">Redis</a></li>
+<li><a href=3D"#id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81=
+-DBquery">DB query</a></li>
+<li><a href=3D"#id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81=
+-Galleonquery">Galleon query</a></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81-=EC=
+=97=B0=EB=8F=99">=EC=97=B0=EB=8F=99</h1>
+<ul style=3D"margin-left: 0.0px;">
+<li>=EB=A7=A4=EC=9D=BC =EC=A0=81=EB=A6=BD &gt; =EB=B3=B4=EB=84=88=EC=8A=A4 =
+=EB=AF=B8=EC=85=98 =EC=99=84=EB=A3=8C - <span class=3D"jira-issue" data-jir=
+a-key=3D"OCBWEBVIEW-5969" data-client-id=3D"SINGLE_66c70ce4-eb7d-3ce9-8070-=
+9705b6b477fa_700941871_2c93ec95442efa5301442efb9a860565"> <a href=3D"https:=
+//jira.skplanet.com/browse/OCBWEBVIEW-5969" class=3D"jira-issue-key"><span =
+class=3D"aui-icon aui-icon-wait issue-placeholder"></span>OCBWEBVIEW-5969</=
+a> - <span class=3D"summary">Getting issue details...</span> <span class=3D=
+"aui-lozenge aui-lozenge-subtle aui-lozenge-default issue-placeholder">STAT=
+US</span> </span>
+<ul style=3D"margin-left: 0.0px;">
+<li>=EC=B0=B8=EC=A1=B0 -&nbsp;<a title=3D"Follow link" href=3D"https://jira=
+.skplanet.com/browse/OCBAPP-36024" class=3D"external-link" rel=3D"nofollow"=
+>https://jira.skplanet.com/browse/OCBAPP-36024</a>&nbsp;
+<ul style=3D"margin-left: 0.0px;">
+<li>=EC=9C=A0=EC=82=AC =ED=8B=B0=EC=BC=93
+<ul style=3D"margin-left: 0.0px;">
+<li>=EC=98=A4=EB=8A=98=EC=9D=98 =EC=A0=81=EB=A6=BD=EB=AF=B8=EC=85=98 -&nbsp=
+;<a title=3D"Follow link" href=3D"https://jira.skplanet.com/browse/OCBWEBVI=
+EW-5507" class=3D"external-link" rel=3D"nofollow">https://jira.skplanet.com=
+/browse/OCBWEBVIEW-5507</a>&nbsp;</li>
+<li>=EC=98=A4=ED=82=A4=ED=81=B4=EB=9F=BD =ED=8C=8C=EC=9B=8C=EC=A1=B4 =EB=AF=
+=B8=EC=85=98 -&nbsp;<a title=3D"Follow link" href=3D"https://jira.skplanet.=
+com/browse/OCBWEBVIEW-5803" class=3D"external-link" rel=3D"nofollow">https:=
+//jira.skplanet.com/browse/OCBWEBVIEW-5803</a>&nbsp;</li>
+</ul></li>
+</ul></li>
+<li><span class=3D"s1">=ED=85=8C=EC=8A=A4=ED=8A=B8</span>
+<ul style=3D"margin-left: 0.0px;">
+<li><span class=3D"s1">=EA=B0=9C=EB=B0=9C - curl -v -XGET "<span class=3D"n=
+olink">https://msg-ved.okcashbag.com/sugar/callback/daily_mission/complete?=
+mission_type=3DNEWS&amp;mbr_id=3D</span></span><span style=3D"color: rgb(0,=
+0,0);">336312334</span><span class=3D"s1">&amp;</span><span style=3D"color:=
+ rgb(0,0,0);">complete_yn=3DY&amp;yyyymmdd=3D20251010</span><span class=3D"=
+s1">"</span></li>
+<li><span class=3D"s1">=EC=83=81=EC=9A=A9 -&nbsp;</span><span class=3D"s1">=
+curl -v -XGET <span style=3D"color: rgb(0,29,53);">-H </span><span class=3D=
+"rQeGvc" style=3D"color: rgb(24,128,56);">"Content-Type: <span style=3D"col=
+or: rgb(0,0,0);">application/x-www-form-urlencoded</span>" </span>"https://=
+pri-imsg.okcashbag.com/sugar/callback/daily_mission/complete?mission_type=
+=3DNEWS&amp;mbr_id=3D<span style=3D"color: rgb(0,0,0);">244242247</span></s=
+pan><span class=3D"s1">&amp;</span><span style=3D"color: rgb(0,0,0);">compl=
+ete_yn=3DY&amp;yyyymmdd=3D20251014</span><span class=3D"s1">"</span>
+<ul style=3D"margin-left: 0.0px;">
+<li><span class=3D"s1"><span style=3D"color: rgb(0,0,0);">Content-Type=3Dap=
+plication/x-www-form-urlencoded</span></span></li>
+<li><span class=3D"s1"><span style=3D"color: rgb(0,0,0);">x-ocb-crypted-sid=
+=3D</span></span></li>
+<li><span class=3D"s1"><span style=3D"color: rgb(0,0,0);">x-ocb-agent=3Dacc=
+epted=3Djson;crypted=3D0</span></span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id=3D"id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81-Redis=
+">Redis</h1>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># nodes=
+ =EB=AA=A9=EB=A1=9D
+cluster nodes
+
+# =EB=B9=88 =EB=89=B4=EC=8A=A4 =EB=AA=A9=EB=A1=9D =EC=9D=91=EB=8B=B5
+get ONEWS_NEWS::skplanet_ocb_sports.json
+set ONEWS_NEWS::skplanet_ocb_sports.json '{"@class":"com.skp.ocb.joy.api.wv=
+.onews.client.NewspicResponse","title":"=EB=89=B4=EC=8A=A4=ED=94=BD","link"=
+:"https://m.newspic.kr","description":"=EC=8B=A4=EC=8B=9C=EA=B0=84 =ED=95=
+=AB=ED=86=A0=ED=94=BD =EB=89=B4=EC=8A=A4=EB=A5=BC =EC=A0=84=ED=95=A9=EB=8B=
+=88=EB=8B=A4.","items":["java.util.ArrayList",[]]}'
+set ONEWS_NEWS::skplanet_ocb_sports.json '{"@class":"com.skp.ocb.joy.api.wv=
+.onews.client.NewspicResponse","title":"=EB=89=B4=EC=8A=A4=ED=94=BD","link"=
+:"https://m.newspic.kr","description":"=EC=8B=A4=EC=8B=9C=EA=B0=84 =ED=95=
+=AB=ED=86=A0=ED=94=BD =EB=89=B4=EC=8A=A4=EB=A5=BC =EC=A0=84=ED=95=A9=EB=8B=
+=88=EB=8B=A4.","items":["java.util.ArrayList",[{"@class":"com.skp.ocb.joy.a=
+pi.wv.onews.client.NewspicResponse$Item","nid":"2025092410485028322","title=
+":"'=EC=88=A0=EA=B0=92 =EC=8B=9C=EB=B9=84' =EB=8F=99=EB=A3=8C =EC=84=A0=EC=
+=9B=90 =EC=B0=8C=EB=A5=B8 =EC=99=B8=EA=B5=AD=EC=9D=B8 =EA=B5=AC=EC=86=8D =
+=EC=86=A1=EC=B9=98","description":"[=EC=9D=B4=EB=8D=B0=EC=9D=BC=EB=A6=AC =
+=EC=9E=A5=EC=98=81=EB=9D=BD =EA=B8=B0=EC=9E=90] =EC=88=A0=EA=B0=92 =EC=A0=
+=95=EC=82=B0 =EB=AC=B8=EC=A0=9C=EB=A1=9C =EB=8B=A4=ED=88=BC=EC=9D=84 =EB=B2=
+=8C=EC=9D=B4=EB=8B=A4 =ED=9D=89=EA=B8=B0 =EB=82=9C=EB=8F=99=EC=9D=84 =EB=B2=
+=8C=EC=9D=B8 =EC=99=B8=EA=B5=AD=EC=9D=B8 =EB=93=B1 3=EB=AA=85","link":"http=
+s://m.newspic.kr/view.html?nid=3D2025092410485028322&amp;pn=3D179&amp;cp=3D=
+b4EkP52j&amp;utm_medium=3Daffiliate&amp;utm_campaign=3D2025092410485028322&=
+amp;utm_source=3Db4EkP52j&amp;utm_content=3Db4EkP52j_ocb_news&amp;rssOption=
+=3DRECOM_RD","author":"=EC=9D=B4=EB=8D=B0=EC=9D=BC=EB=A6=AC","pubDate":"202=
+5-09-24 10:48:50","category":"=EB=89=B4=EC=8A=A4","image":"https://rimages-=
+cdn.newspic.kr/thumb1/2025/09/24/2c2fa6e1-535f-4b29-9519-b38c2dae3035.jpg?w=
+=3D228&amp;h=3D192","readYn":"N","landingUrl":""}]]}'
+
+ttl ONEWS_NEWS::skplanet_ocb_sports.json
+expire ONEWS_NEWS::skplanet_ocb_sports.json 3600</pre>
+</div>
+</div>
+<h1 id=3D"id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81-DBque=
+ry">DB query</h1>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># =EC=
+=82=AC=EC=9A=A9=EC=9E=90 =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=B4=88=EA=B8=B0=ED=
+=99=94 - 207548251, 199802860, 103262938
+delete from onews_personal where mbr_id=3D'' and target_date=3D'2025-09-24'
+delete from onews_reward where mbr_id=3D'' and target_date=3D'2025-09-24'
+delete from etms_ad_reward_history where mbr_id=3D'' and reward_day=3D'2025=
+0924'
+
+# =EC=98=A4=EB=9E=98=EB=90=9C =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=82=AD=EC=A0=
+=9C - =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=8B=9C=EC=9E=91 2025=EB=85=84 4=EC=9B=
+=94~
+# onews_reward - target_date index =EB=AF=B8=EC=A1=B4=EC=9E=AC, create_date=
+=EB=A7=8C =EC=A1=B4=EC=9E=AC
+# onews_ad_reward - target_date =EB=8B=A8=EB=8F=85 index=EA=B0=80 =EC=97=86=
+=EA=B3=A0 =EB=B3=B5=ED=95=A9 index=EB=A7=8C =EC=A1=B4=EC=9E=AC - target_dat=
+e=EB=A1=9C query=EC=8B=9C =EB=B9=84=ED=9A=A8=EC=9C=A8=EC=A0=81
+delete from onews_personal where target_date&gt;=3D'2025-04-01 00:00:00' an=
+d target_date&lt;'2025-05-01 00:00:00';
+delete from onews_reward where create_date&gt;=3D'2025-04-01 00:00:00' and =
+create_date&lt;'2025-05-01 00:00:00';
+delete from onews_ad_reward where create_date&gt;=3D'2025-04-01 00:00:00' a=
+nd target_date&lt;'2025-05-01 00:00:00';</pre>
+</div>
+</div>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># =EB=
+=89=B4=EC=8A=A4 1=EA=B1=B4 =EC=9D=B4=EC=83=81 =EC=9D=BD=EC=9D=80 =EC=82=AC=
+=EC=9A=A9=EC=9E=90 =EC=A1=B0=ED=9A=8C - =EC=97=AC=EB=9F=AC select query =EA=
+=B2=B0=EA=B3=BC =ED=91=9C=EC=8B=9C - =EB=A7=88=EC=9A=B0=EC=8A=A4=EB=A1=9C =
+=EC=98=81=EC=97=AD =EC=84=A0=ED=83=9D=ED=9B=84 Cmd + Shift + Enter
+select count(distinct MBR_ID) from onews_reward where create_date&gt;=3D'20=
+25-12-01 00:00:00' and create_date&lt;'2025-12-02 00:00:00' and action=3D'v=
+iew-news';
+select count(distinct MBR_ID) from onews_reward where create_date&gt;=3D'20=
+25-12-02 00:00:00' and create_date&lt;'2025-12-03 00:00:00' and action=3D'v=
+iew-news';
+select count(distinct MBR_ID) from onews_reward where create_date&gt;=3D'20=
+25-12-03 00:00:00' and create_date&lt;'2025-12-04 00:00:00' and action=3D'v=
+iew-news';
+SELECT
+    DATE(create_date) AS create_day,
+    COUNT(DISTINCT MBR_ID) AS distinct_member_count
+FROM
+    onews_reward
+WHERE
+    create_date &gt;=3D '2025-11-08 00:00:00'
+    AND create_date &lt; '2025-11-16 00:00:00'
+    AND action=3D'view-news'
+GROUP BY
+    create_day
+ORDER BY
+    create_day;
+
+# =EC=9D=BC=EC=9D=BC =ED=86=B5=EA=B3=84
+select count(distinct MBR_ID) from onews_reward where create_date&gt;=3D'20=
+25-04-10 00:00:00' and create_date&lt;'2025-04-11 00:00:00';
+select sum(point) from onews_reward where create_date&gt;=3D'2025-04-10 00:=
+00:00' and create_date&lt;'2025-04-11 00:00:00';
+
+select count(distinct MBR_ID) from onews_reward where create_date&gt;=3D'20=
+25-05-27 00:00:00' and create_date&lt;'2025-05-28 00:00:00';
+select sum(point) from onews_reward where create_date&gt;=3D'2025-05-27 00:=
+00:00' and create_date&lt;'2025-05-28 00:00:00';
+
+# =EC=9D=BC=EB=B3=84 =EA=B8=B0=EA=B0=84 =ED=86=B5=EA=B3=84 (=EB=8A=90=EB=A0=
+=A4=EC=84=9C =EC=82=AC=EC=9A=A9 =EB=B9=84=EC=B6=94=EC=B2=9C)
+SELECT
+    DATE(create_date) AS create_day,
+    COUNT(DISTINCT MBR_ID) AS distinct_member_count
+FROM
+    onews_reward
+WHERE
+    create_date &gt;=3D '2025-11-01 00:00:00'
+    AND create_date &lt; '2025-11-08 00:00:00'
+GROUP BY
+    create_day
+ORDER BY
+    create_day;</pre>
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"id-20=EC=98=A4=EB=8A=98=EB=89=B4=EC=8A=A4=EC=9A=B4=EC=98=81-Galle=
+onquery">Galleon query</h1>
+<ul>
+<li>OCB =EB=A1=9C=EA=B7=B8=EC=A0=95=EC=9D=98=EC=84=9C - <a href=3D"https://=
+skpcorp.sharepoint.com/:x:/s/OCB950/EUqXE07J4r9ImvfuPLNiLykBJFdCUFec0-EkioA=
+eY31PkA?e=3D66WRmL" class=3D"external-link" rel=3D"nofollow">https://skpcor=
+p.sharepoint.com/:x:/s/OCB950/EUqXE07J4r9ImvfuPLNiLykBJFdCUFec0-EkioAeY31Pk=
+A?e=3D66WRmL</a></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># log =
+=ED=85=8C=EC=9D=B4=EB=B8=94
+select common_cd,poc,mnf_nm,mbr_id,cmncn_id,actn_id,cdc_base_time,log_dttm,=
+part_hour,dt
+from ocb.ocb_d_intg_log
+where dt =3D '20250814'
+and part_hour between '2025081421' and '2025081421'
+and mbr_id =3D '327003866'
+and page_id =3D '/todaynews_main'
+and actn_id =3D 'tap.sub_news_detail';
+
+select common_cd,poc,mnf_nm,mbr_id,cmncn_id,actn_id,cdc_base_time,log_dttm,=
+part_hour,dt
+from ocb.ocb_d_intg_log
+where dt =3D '20250814'
+and part_hour between '2025081421' and '2025081421'
+and mbr_id =3D '327003866'
+and page_id =3D '/todaynews_main'
+and actn_id =3D 'tap.earnpoint';</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_2247_1632138695.1791868055746--

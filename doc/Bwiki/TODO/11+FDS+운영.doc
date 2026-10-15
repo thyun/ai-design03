@@ -1,0 +1,1289 @@
+Date: Tue, 13 Oct 2026 14:07:58 +0900 (KST)
+Message-ID: <636065733.2270.1791868078970@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2269_706500722.1791868078966"
+
+------=_Part_2269_706500722.1791868078966
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>20 FDS =EC=9A=B4=EC=98=81</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>20 FDS =EC=9A=B4=EC=98=81</h1>
+    <div class=3D"Section1">
+        <p><span style=3D"color: rgb(0,0,0);text-decoration: none;"><style =
+type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1791868078871 {padding: 0px;}
+div.rbtoc1791868078871 ul {margin-left: 0px;}
+div.rbtoc1791868078871 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></span></p>
+<div class=3D"toc-macro rbtoc1791868078871">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EA=B0=9C=EB=B0=9C=ED=99=98=EA=
+=B2=BD=EA=B3=84=EC=A0=95">=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BD =EA=B3=84=EC=
+=A0=95</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-DBQuery">DB Query</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EB=AF=B8=EC=82=AC=EC=9A=A9=EC=
+=84=9C=EB=B9=84=EC=8A=A4,=EC=A0=95=EC=B1=85=EC=82=AD=EC=A0=9C">=EB=AF=B8=EC=
+=82=AC=EC=9A=A9 =EC=84=9C=EB=B9=84=EC=8A=A4, =EC=A0=95=EC=B1=85 =EC=82=AD=
+=EC=A0=9C</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EA=B0=84=ED=8E=B8Query">=EA=B0=
+=84=ED=8E=B8 Query</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EC=8B=A4=EC=A0=9CQuery">=EC=8B=
+=A4=EC=A0=9C Query</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-Notification-Noti=EB=A6=AC=EC=8A=
+=A4=ED=8A=B8">Notification - Noti =EB=A6=AC=EC=8A=A4=ED=8A=B8</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-Notification-=EC=A0=95=EC=B1=85=
+=EB=A6=AC=EC=8A=A4=ED=8A=B8">Notification - =EC=A0=95=EC=B1=85 =EB=A6=AC=EC=
+=8A=A4=ED=8A=B8</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=ED=98=84=ED=99=A9=EB=AA=A8=EB=
+=8B=88=ED=84=B0=EB=A7=81-=EC=A0=95=EC=B1=85=ED=98=84=ED=99=A9=EB=AA=A8=EB=
+=8B=88=ED=84=B0=EB=A7=81">=ED=98=84=ED=99=A9 =EB=AA=A8=EB=8B=88=ED=84=B0=EB=
+=A7=81 - =EC=A0=95=EC=B1=85 =ED=98=84=ED=99=A9 =EB=AA=A8=EB=8B=88=ED=84=B0=
+=EB=A7=81</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-DBQuery-=EC=9D=BC=EB=B0=98">DB Q=
+uery - =EC=9D=BC=EB=B0=98</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=ED=85=8C=EC=9D=B4=EB=B8=94=ED=
+=81=AC=EA=B8=B0=EC=A1=B0=ED=9A=8C">=ED=85=8C=EC=9D=B4=EB=B8=94 =ED=81=AC=EA=
+=B8=B0 =EC=A1=B0=ED=9A=8C</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=ED=85=8C=EC=9D=B4=EB=B8=94=ED=
+=8C=8C=ED=8B=B0=EC=85=98=EC=A1=B0=ED=9A=8C">=ED=85=8C=EC=9D=B4=EB=B8=94 =ED=
+=8C=8C=ED=8B=B0=EC=85=98 =EC=A1=B0=ED=9A=8C</a></li>
+</ul></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EC=9A=B4=EC=98=81=ED=8B=B0=EC=
+=BC=93-2026">=EC=9A=B4=EC=98=81 =ED=8B=B0=EC=BC=93-2026</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-FDSdata=EC=9A=94=EC=B2=AD-202606=
+">FDS data =EC=9A=94=EC=B2=AD-202606</a></li>
+</ul></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EC=9A=B4=EC=98=81=ED=8B=B0=EC=
+=BC=93-2025">=EC=9A=B4=EC=98=81 =ED=8B=B0=EC=BC=93-2025</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EC=84=9C=EB=B9=84=EC=8A=A4=EB=
+=8B=B4=EB=8B=B9=EC=9E=90=EC=9D=BC=EA=B4=84=EB=B3=80=EA=B2=BD">=EC=84=9C=EB=
+=B9=84=EC=8A=A4 =EB=8B=B4=EB=8B=B9=EC=9E=90 =EC=9D=BC=EA=B4=84 =EB=B3=80=EA=
+=B2=BD</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EB=84=A5=EC=8A=A4=EC=BB=A4=EC=
+=8A=A4=EC=97=90=EC=84=9C=EA=B0=80=EB=A7=B9=EC=A0=90=EC=83=9D=EC=84=B1=ED=95=
+=98=EC=98=80=EC=9C=BC=EB=82=98FDS=EB=8D=B0=EC=9D=B4=ED=84=B0=EB=AF=B8=EC=83=
+=9D=EC=84=B1-20250513">=EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4=EC=97=90=EC=84=
+=9C =EA=B0=80=EB=A7=B9=EC=A0=90 =EC=83=9D=EC=84=B1=ED=95=98=EC=98=80=EC=9C=
+=BC=EB=82=98 FDS =EB=8D=B0=EC=9D=B4=ED=84=B0 =EB=AF=B8=EC=83=9D=EC=84=B1-20=
+250513</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EC=9B=90=EC=9D=B8=EB=B6=84=EC=
+=84=9D">=EC=9B=90=EC=9D=B8 =EB=B6=84=EC=84=9D</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EB=8B=B5=EB=B3=80=EB=82=B4=EC=
+=9A=A9">=EB=8B=B5=EB=B3=80 =EB=82=B4=EC=9A=A9</a></li>
+</ul></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-FDS=EB=B9=84=EB=B0=80=EB=B2=88=
+=ED=98=B8=EC=B4=88=EA=B8=B0=ED=99=94=EC=98=A4=EB=A5=98(20250925)">FDS =EB=
+=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EC=B4=88=EA=B8=B0=ED=99=94 =EC=98=A4=EB=
+=A5=98 (20250925)</a></li>
+<li><a href=3D"#id-20FDS=EC=9A=B4=EC=98=81-=EB=8B=B4=EB=8B=B9=EC=9E=90=EB=
+=AA=A9=EB=A1=9D=EC=B6=94=EC=B6=9C">=EB=8B=B4=EB=8B=B9=EC=9E=90 =EB=AA=A9=EB=
+=A1=9D =EC=B6=94=EC=B6=9C</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BD=
+=EA=B3=84=EC=A0=95">=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BD =EA=B3=84=EC=A0=95=
+</h1>
+<ul>
+<li>=EB=82=B4=EC=82=AC=EB=B2=88 (admin) - =E3=85=81=E3=85=8A=E3=85=87xx</li=
+>
+<li>test123 (service) - =E3=85=81=E3=85=8A=E3=85=87xx</li>
+</ul>
+<h1 id=3D"id-20FDS=EC=9A=B4=EC=98=81-DBQuery">DB Query</h1>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EB=AF=B8=EC=82=AC=EC=9A=A9=EC=84=9C=
+=EB=B9=84=EC=8A=A4,=EC=A0=95=EC=B1=85=EC=82=AD=EC=A0=9C">=EB=AF=B8=EC=82=AC=
+=EC=9A=A9 =EC=84=9C=EB=B9=84=EC=8A=A4, =EC=A0=95=EC=B1=85 =EC=82=AD=EC=A0=
+=9C</h2>
+<div id=3D"expander-193287083" class=3D"expand-container">
+<div id=3D"expander-control-193287083" class=3D"expand-control" aria-expand=
+ed=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-193287083" class=3D"expand-content">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># =EC=
+=A0=95=EC=B1=85 =EC=A1=B0=ED=9A=8C =ED=8E=98=EC=9D=B4=EC=A7=80=EC=97=90=EC=
+=84=9C =EC=A1=B0=ED=9A=8C=EB=90=98=EC=A7=80 =EC=95=8A=EB=8A=94 =EC=A0=95=EC=
+=B1=85 =EC=82=AD=EC=A0=9C
+DELETE from OCBFDS_NOTI_RULE where fds_rule_seq not in
+(SELECT
+        fds_rule_seq
+FROM (SELECT ROWNUM as rnum,
+             service_seq,
+             service_type,
+             fds_rule_seq,
+             service_name,
+             rule_term,
+             rule_term_nm,
+             nx_tr_cd,
+             nx_tr_nm,
+             rule_target,
+             rule_point_number,
+             rule_div_cd,
+             rule_condition,
+             rule_condition_nm,
+             emp_no,
+             emp_name,
+             cre_dt,
+             upd_dt,
+             chg_emp_no,
+             chg_emp_name,
+             dept_nm,
+             del_yn,
+             aml_yn
+      from (SELECT tb1.service_seq,
+                   tb2.service_type,
+                   tb2.fds_rule_seq,
+                   tb1.service_name,
+                   tb2.rule_term,
+                   DECODE(tb2.rule_term, 'onetime', '=EA=B1=B4=EB=B3=84', '=
+day', '=EB=8B=B9=EC=9D=BC', 'week', '1=EC=A3=BC=EC=9D=BC', 'month', '1=EA=
+=B0=9C=EC=9B=94', 'thatmonth', '=EB=8B=B9=EC=9B=94',
+                          'minute', '1=EB=B6=84', 'hour', '1=EC=8B=9C=EA=B0=
+=84', '=EA=B8=B0=ED=83=80')                                   as rule_term_=
+nm,
+                   tb2.nx_tr_cd,
+                   DECODE(tb2.nx_tr_cd, 'K100', '=EC=A0=81=EB=A6=BD', 'K200=
+', '=ED=95=A0=EC=9D=B8', 'S001', '=EB=91=90=ED=88=BC=EC=A0=81=EB=A6=BD', 'K=
+400', '=EC=82=AC=EC=9A=A9', 'B130', '=EC=83=81=ED=99=98', 'Z350',
+                          '=ED=99=98=EA=B8=89', '=EA=B8=B0=ED=83=80')      =
+                                                      as nx_tr_nm,
+                   tb2.rule_target,
+                   tb2.rule_point_number,
+                   tb2.rule_div_cd,
+                   tb2.rule_condition,
+                   DECODE(tb2.rule_condition, 1, '=EC=B4=88=EA=B3=BC', 2, '=
+=EB=8F=99=EC=9D=BC', 3, '=EB=AF=B8=EB=A7=8C', '=EA=B8=B0=ED=83=80')        =
+           as rule_condition_nm,
+                   tb3.emp_no,
+                   tb3.emp_name,
+                   TO_CHAR(tb2.cre_dt, 'YYYYMMDD')                         =
+                      as cre_dt,
+                   TO_CHAR(tb2.upd_dt, 'YYYYMMDD')                         =
+                      as upd_dt,
+                   tb4.chg_emp_no,
+                   (select emp_name from ocbfds_user where emp_no =3D tb4.c=
+hg_emp_no)                 chg_emp_name,
+                   tb5.dept_nm,
+                   tb2.del_yn,
+                   tb1.aml_yn
+            FROM ocbfds_service tb1,
+                 ocbfds_noti_rule tb2,
+                 ocbfds_user tb3,
+                 ocbfds_service_charge_id tb4,
+                 ocbfds_dept tb5
+            WHERE tb1.service_seq =3D tb2.service_seq
+              AND tb1.service_seq =3D tb4.service_seq
+              AND tb3.emp_no =3D tb4.chg_emp_no
+              AND tb3.dept_seq =3D tb5.dept_seq (+)
+              AND tb1.del_yn =3D 'N'
+            ORDER BY upd_dt desc, cre_dt desc)));
+
+# =EC=84=9C=EB=B9=84=EC=8A=A4=EC=A4=91 =EB=93=B1=EB=A1=9D=EB=90=9C =EC=A0=
+=95=EC=B1=85=EC=9D=B4 0=EA=B1=B4=EC=9D=B8 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=
+=82=AD=EC=A0=9C
+delete
+from ocbfds_service
+where service_seq in
+      (select s.service_seq
+       from OCBFDS_SERVICE S
+                left join OCBFDS_NOTI_RULE R
+                          on S.SERVICE_SEQ =3D R.SERVICE_SEQ
+       where R.FDS_RULE_SEQ is null);
+
+# =EA=B0=80=EB=A7=B9=EC=A0=90=EB=B2=88=ED=98=B8=EC=99=80 =EC=97=B0=EA=B2=B0=
+=EB=90=9C =EC=84=9C=EB=B9=84=EC=8A=A4=EA=B0=80 =EC=97=86=EB=8A=94 =EA=B0=80=
+=EB=A7=B9=EC=A0=90 =EB=AA=A9=EB=A1=9D
+select a.*, s.SERVICE_SEQ, s.SERVICE_NAME from OCBFDS_SERVICE_ALLIANCE a
+       left join OCBFDS_SERVICE s on a.SERVICE_SEQ=3Ds.SERVICE_SEQ
+       where s.SERVICE_SEQ is null;</pre>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EA=B0=84=ED=8E=B8Query">=EA=B0=84=ED=
+=8E=B8 Query</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># =EC=
+=84=9C=EB=B9=84=EC=8A=A4 =EB=AA=A9=EB=A1=9D =EC=A1=B0=ED=9A=8C
+select s.*=20
+  from OCBFDS_SERVICE s
+  join OCBFDS_SERVICE_CHARGE_ID sc on s.SERVICE_SEQ=3Dsc.SERVICE_SEQ
+  join OCBFDS_USER u on sc.CHG_EMP_NO=3Du.EMP_NO
+  left join OCBFDS_SERVICE_SMS sms on s.SERVICE_SEQ=3Dsms.SERVICE_SEQ
+  where u.EMP_NAME=3D'=ED=99=8D=EA=B8=B8=EB=8F=99';
+
+# =EC=A0=95=EC=B1=85 =EB=AA=A9=EB=A1=9D =EC=A1=B0=ED=9A=8C
+select s.SERVICE_SEQ, s.SERVICE_NAME, p.*=20
+  from OCBFDS_NOTI_RULE p
+  join OCBFDS_SERVICE s on s.SERVICE_SEQ=3Dp.SERVICE_SEQ
+  join OCBFDS_SERVICE_CHARGE_ID sc on s.SERVICE_SEQ=3Dsc.SERVICE_SEQ
+  join OCBFDS_USER u on sc.CHG_EMP_NO=3Du.EMP_NO
+  where u.EMP_NAME=3D'=ED=99=8D=EA=B8=B8=EB=8F=99';
+
+# =ED=8A=B9=EC=A0=95 =EC=82=AC=EC=9A=A9=EC=9E=90 =EC=A0=95=EC=B1=85 =EC=9D=
+=BC=EA=B4=84 =EC=88=98=EC=A0=95
+UPDATE OCBFDS_NOTI_RULE p
+   SET p.SMS_YN =3D 'Y'   -- =EB=B3=80=EA=B2=BD=ED=95=A0 =EA=B0=92 (=EC=98=
+=88: 'Y' =EB=98=90=EB=8A=94 'N')
+ WHERE p.SERVICE_SEQ IN (
+           SELECT s.SERVICE_SEQ
+             FROM OCBFDS_SERVICE s
+             JOIN OCBFDS_SERVICE_CHARGE_ID sc
+               ON s.SERVICE_SEQ =3D sc.SERVICE_SEQ
+             JOIN OCBFDS_USER u
+               ON sc.CHG_EMP_NO =3D u.EMP_NO
+            WHERE u.EMP_NAME =3D '=ED=99=8D=EA=B8=B8=EB=8F=99'
+       );
+
+# =EC=A0=95=EC=B1=85=EC=9D=B4 =EC=A1=B4=EC=9E=AC=ED=95=98=EC=A7=80 =EC=95=
+=8A=EB=8A=94 =EC=84=9C=EB=B9=84=EC=8A=A4 =EB=AA=A9=EB=A1=9D =EC=A1=B0=ED=9A=
+=8C
+SELECT s.SERVICE_SEQ,
+       s.SERVICE_NAME
+  FROM OCBFDS_SERVICE s
+ WHERE NOT EXISTS (
+           SELECT 1
+             FROM OCBFDS_NOTI_RULE r
+            WHERE r.SERVICE_SEQ =3D s.SERVICE_SEQ
+       );
+
+# =EB=AF=B8=EC=82=AC=EC=9A=A9=EA=B3=84=EC=A0=95 =EC=84=9C=EB=B9=84=EC=8A=A4=
+ =EB=AA=A9=EB=A1=9D =EC=A1=B0=ED=9A=8C
+select A.service_seq
+     , A.service_name
+     , A.MCT_ID
+     , (select LISTAGG(merchant_no, ', ') WITHIN GROUP(ORDER BY merchant_no=
+)
+        FROM OCBFDS_SERVICE_ALLIANCE tbl
+        WHERE tbl.service_seq =3D A.service_seq) as merchant_no
+     , (select emp_name from ocbfds_user where emp_no =3D (select chg_emp_n=
+o from ocbfds_service_charge_id where service_seq =3D a.service_seq )) as e=
+mpName
+from ocbfds_service A
+   , ocbfds_user C
+where A.del_yn        =3D 'N'
+  and A.REG_EMP_NO =3D C.EMP_NO
+  and C.AUTH =3D 'disuse';</pre>
+</div>
+</div>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EC=8B=A4=EC=A0=9CQuery">=EC=8B=A4=EC=
+=A0=9C Query</h2>
+<ul>
+<li>=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BD =EB=A1=9C=EA=B7=B8=EC=97=90=EC=84=
+=9C =ED=99=95=EC=9D=B8 =EA=B0=80=EB=8A=A5</li>
+</ul>
+<h3 id=3D"id-20FDS=EC=9A=B4=EC=98=81-Notification-Noti=EB=A6=AC=EC=8A=A4=ED=
+=8A=B8">Notification - Noti =EB=A6=AC=EC=8A=A4=ED=8A=B8</h3>
+<div id=3D"expander-2077853387" class=3D"expand-container">
+<div id=3D"expander-control-2077853387" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-2077853387" class=3D"expand-content">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Noti =
+=EB=A6=AC=EC=8A=A4=ED=8A=B8 =EC=A1=B0=ED=9A=8C
+SELECT /* NotiMapper.selectNotiList */ noti_list_seq,
+                                       service_name,
+                                       service_seq,
+                                       org_cd,
+                                       impo_lev,
+                                       rule_target,
+                                       fds_rule_seq,
+                                       risk_type_cd,
+                                       mbr_id,
+                                       target_detail,
+                                       rule_range_cd,
+                                       rule_term,
+                                       nx_tr_cd,
+                                       rule_point_number,
+                                       rule_div_cd,
+                                       noti_dt,
+                                       tr_seq,
+                                       point_count,
+                                       noti_check_cd,
+                                       background_color,
+                                       chg_emp_name,
+                                       chg_emp_no
+FROM (SELECT rownum as rnum,
+             noti_list_seq,
+             service_name,
+             service_seq,
+             org_cd,
+             impo_lev,
+             rule_target,
+             fds_rule_seq,
+             risk_type_cd,
+             mbr_id,
+             target_detail,
+             rule_range_cd,
+             rule_term,
+             nx_tr_cd,
+             rule_point_number,
+             rule_div_cd,
+             noti_dt,
+             tr_seq,
+             point_count,
+             noti_check_cd,
+             background_color,
+             chg_emp_name,
+             chg_emp_no
+      FROM (SELECT tb1.noti_list_seq,
+                   tb1.service_name,
+                   tb2.service_seq,
+                   tb2.org_cd,
+                   DECODE(tb2.org_cd, '0000', 'info', 'alert')             =
+                                        as impo_lev,
+                   tb1.rule_target,
+                   tb1.fds_rule_seq,
+                   tb5.risk_type_cd,
+                   tb1.mbr_id,
+                   tb1.merchant_no                                         =
+                                        as target_detail,
+                   tb1.rule_range_cd,
+                   tb1.rule_term,
+                   tb1.nx_tr_cd,
+                   tb1.rule_point_number,
+                   tb1.rule_div_cd,
+                   tb1.noti_dt,
+                   tb1.tr_seq,
+                   tb1.point_count,
+                   tb1.noti_check_cd,
+                   case
+                       when tb1.noti_dt &lt; sysdate - 2 and tb1.noti_check=
+_cd is null then 'red'
+                       else 'default' end                                  =
+                                        as background_color,
+                   tb3.chg_emp_no,
+                   (SELECT emp_name
+                    FROM ocbfds_user
+                    WHERE emp_no =3D case
+                                       when tb2.aml_yn =3D 'Y' and tb4.emp_=
+no is NOT null then tb4.emp_no
+                                       else tb3.chg_emp_no end)            =
+                                        AS chg_emp_name
+            FROM ocbfds_noti_history tb1,
+                 ocbfds_service tb2,
+                 ocbfds_service_charge_id tb3,
+                 ocbfds_aml_user tb4,
+                 ocbfds_aml_customer tb5
+            WHERE tb1.service_seq =3D tb2.service_seq
+              AND tb2.service_seq =3D tb3.service_seq
+              AND tb1.merchant_no =3D tb4.merchant_no (+)
+              AND tb1.mbr_id =3D tb5.mbr_id (+)
+              AND tb1.noti_dt &gt;=3D to_date('2025-06-20', 'yyyy-mm-dd')
+              AND tb1.noti_dt &lt;=3D to_date('2025-06-27', 'yyyy-mm-dd') +=
+ 1
+            ORDER BY noti_dt desc, noti_list_seq desc))</pre>
+</div>
+</div>
+</div>
+</div>
+<h3 id=3D"id-20FDS=EC=9A=B4=EC=98=81-Notification-=EC=A0=95=EC=B1=85=EB=A6=
+=AC=EC=8A=A4=ED=8A=B8">Notification - =EC=A0=95=EC=B1=85 =EB=A6=AC=EC=8A=A4=
+=ED=8A=B8</h3>
+<div id=3D"expander-2021431735" class=3D"expand-container">
+<div id=3D"expander-control-2021431735" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-2021431735" class=3D"expand-content">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># =EC=
+=A0=95=EC=B1=85(NOTI_RULE) =EB=A6=AC=EC=8A=A4=ED=8A=B8 =EC=A1=B0=ED=9A=8C
+select  A.service_seq           as serviceSeq
+     , B.fds_rule_seq        as fdsRuleSeq
+     , A.service_name        as serviceName
+     , A.org_cd              as orgCd
+     , A.mct_id              as mctId
+     , '12345678'         as merchant_no
+     , B.rule_target         as ruleTarget
+     , B.rule_range_cd       as ruleRangeCd
+     , B.rule_term           as ruleTerm
+     , B.rule_apply_day      as ruleApplyDay
+     , B.nx_tr_cd            as nxTrCd
+     , B.rule_div_cd         as ruleDivCd
+     , B.rule_point_number   as rulePointNumber
+     , B.rule_condition      as ruleCondition
+     , B.sms_yn              as smsYn
+     , B.email_yn            as emailYn
+     , A.aml_yn              as amlYn
+     , (select emp_name from ocbfds_user where emp_no =3D (select chg_emp_n=
+o from ocbfds_service_charge_id where service_seq =3D a.service_seq )) as e=
+mpName
+from    ocbfds_service A
+   , ocbfds_noti_rule B
+where   A.service_seq   =3D B.service_seq
+  and     B.nx_tr_cd      =3D 'K100'
+  and     A.del_yn        =3D 'N'
+  and     B.del_yn        =3D 'N'
+  and     B.rule_target =3D 'mbrid'
+  and     A.service_seq in ( select service_seq
+                             from ocbfds_service_alliance
+                             where merchant_no  =3D '12345678' )
+  and  A.aml_yn       =3D 'N'
+
+# AML =EC=A1=B0=ED=9A=8C
+select  A.service_seq           as serviceSeq
+     , B.fds_rule_seq        as fdsRuleSeq
+     , A.service_name        as serviceName
+     , A.org_cd              as orgCd
+     , A.mct_id              as mctId
+     , '12345678'           as merchant_no
+     , B.rule_target         as ruleTarget
+     , B.rule_range_cd       as ruleRangeCd
+     , B.rule_term           as ruleTerm
+     , B.rule_apply_day      as ruleApplyDay
+     , B.nx_tr_cd            as nxTrCd
+     , B.rule_div_cd         as ruleDivCd
+     , B.rule_point_number   as rulePointNumber
+     , B.rule_condition      as ruleCondition
+     , B.sms_yn              as smsYn
+     , B.email_yn            as emailYn
+     , A.aml_yn              as amlYn
+     , (select emp_name from ocbfds_user where emp_no =3D (select chg_emp_n=
+o from ocbfds_service_charge_id where service_seq =3D a.service_seq )) as e=
+mpName
+from    ocbfds_service A
+   , ocbfds_noti_rule B
+where   A.service_seq =3D B.service_seq
+  and     A.aml_yn =3D 'Y'
+  and     B.nx_tr_cd =3D 'K100'
+  and     A.del_yn        =3D 'N'
+  and     B.del_yn        =3D 'N'
+  and     not exists (select merchant_no from ocbfds_aml_exclude_alliance w=
+here fds_rule_seq =3D B.fds_rule_seq and merchant_no =3D '12345678')
+  and     not exists (select merchant_no from ocbfds_aml_user where merchan=
+t_no =3D '12345678')
+
+# TR =EC=A1=B0=ED=9A=8C
+select
+            nx_tr_cd=20
+            , sum(ocb_point) total_point_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt,'MM') then =
+ocb_point else 0 end ) total_point_that_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt-6)=20
+                    then ocb_point else 0 end ) total_point_week=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt)=20
+                    then ocb_point else 0 end ) total_point_day=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24=20
+                    then ocb_point else 0 end ) total_point_hour=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24/60=20
+                    then ocb_point else 0 end ) total_point_minute=20
+            , count(1)       total_cnt_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt,'MM') then =
+1 else 0 end ) total_cnt_that_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt-6)=20
+                    then 1 else 0 end ) total_cnt_week=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt)=20
+                    then 1 else 0 end ) total_cnt_day=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24=20
+                    then 1 else 0 end ) total_cnt_hour=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24/60=20
+                    then 1 else 0 end ) total_cnt_minute=20
+            , sum( case when to_char(nx_appr_dt,'d') in ('2','3','4','5','6=
+')=20
+                             and holiday_dd is null=20
+                    then ocb_point else 0 end ) workday_point_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt,'MM')=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then ocb_point else 0 end ) workday_point_that_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt-6)=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then ocb_point else 0 end ) workday_point_week=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt)=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then ocb_point else 0 end ) workday_point_day=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then ocb_point else 0 end ) workday_point_hour=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24/60=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then ocb_point else 0 end ) workday_point_minute=20
+            , sum( case when to_char(nx_appr_dt,'d') in ('2','3','4','5','6=
+')=20
+                             and holiday_dd is null=20
+                     then 1 else 0 end )       workday_cnt_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt,'MM')=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                     then 1 else 0 end )       workday_cnt_that_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt-6)=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then 1 else 0 end ) workday_cnt_week=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt)=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then 1 else 0 end ) workday_cnt_day=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then 1 else 0 end ) workday_cnt_hour=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24/60=20
+                             and to_char(nx_appr_dt,'d') in ('2','3','4','5=
+','6')=20
+                             and holiday_dd is null=20
+                    then 1 else 0 end ) workday_cnt_minute=20
+            , sum( case when to_char(nx_appr_dt,'d') in ('1','7')=20
+                             or holiday_dd is NOT null=20
+                    then ocb_point else 0 end ) holiday_point_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt,'MM')=20
+                             and ( to_char(nx_appr_dt,'d') in ('1','7')=20
+                                 or holiday_dd is NOT null )=20
+                    then ocb_point else 0 end ) holiday_point_that_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt-6)=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then ocb_point else 0 end ) holiday_point_week=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt)=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then ocb_point else 0 end ) holiday_point_day=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then ocb_point else 0 end ) holiday_point_hour=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24/60=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then ocb_point else 0 end ) holiday_point_minute=20
+            , sum( case when to_char(nx_appr_dt,'d') in ('1','7')=20
+                             or holiday_dd is NOT null=20
+                     then 1 else 0 end ) holiday_cnt_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt,'MM')=20
+                             and  ( to_char(nx_appr_dt,'d') in ('1','7')=20
+                                 or holiday_dd is NOT null )=20
+                     then 1 else 0 end ) holiday_cnt_that_month=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt-6)=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then 1 else 0 end ) holiday_cnt_week=20
+            , sum( case when nx_appr_dt &gt;=3D trunc(:nxApprDt)=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then 1 else 0 end ) holiday_cnt_day=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then 1 else 0 end ) holiday_cnt_hour=20
+            , sum( case when nx_appr_dt &gt;=3D :nxApprDt-1/24/60=20
+                             and (to_char(nx_appr_dt,'d') in ('1','7')=20
+                                  or holiday_dd is NOT null)=20
+                    then 1 else 0 end ) holiday_cnt_minute
+    from    ocbfds_tr, ocbfds_holiday
+
+    # =EC=95=84=EB=9E=98 sql =EC=B6=94=EA=B0=80
+        String sql =3D """ where mbr_id =3D :mbrId=20
+            and nx_appr_dt  &lt;=3D :nxApprDt """;
+        if ("month".equals(ruleTerm)) {
+            sql +=3D """ and nx_appr_dt  &gt;=3D  trunc(add_months(:nxApprD=
+t,-1)+1) """;
+        }
+        if ("thatmonth".equals(ruleTerm)) {
+            sql +=3D """ and nx_appr_dt  &gt;=3D  trunc(:nxApprDt, 'MM') ""=
+";
+        }
+        if ("week".equals(ruleTerm)) {
+            sql +=3D """ and nx_appr_dt &gt;=3D trunc(:nxApprDt-6) """;
+        }
+        if ("day".equals(ruleTerm)) {
+            sql +=3D """ and nx_appr_dt  &gt;=3D  trunc(:nxApprDt) """;
+        }
+        sql +=3D """    =20
+        and     merchant_no in (  select /*+ no_unnest */ :merchantNo merch=
+ant_no from dual union=20
+                                         select merchant_no=20
+                                         from ocbfds_service_alliance=20
+                                         where service_seq in ( select serv=
+ice_seq=20
+                                                                 from ocbfd=
+s_service_alliance=20
+                                                                 where merc=
+hant_no =3D :merchantNo ) )=20
+        and     nx_tr_cd    =3D :nxTrCd=20
+        and     cancel_dt is null
+        and     nx_appr_dd =3D holiday_dd(+)
+        group by nx_tr_cd
+        """;</pre>
+</div>
+</div>
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"id-20FDS=EC=9A=B4=EC=98=81-=ED=98=84=
+=ED=99=A9=EB=AA=A8=EB=8B=88=ED=84=B0=EB=A7=81-=EC=A0=95=EC=B1=85=ED=98=84=
+=ED=99=A9=EB=AA=A8=EB=8B=88=ED=84=B0=EB=A7=81">=ED=98=84=ED=99=A9 =EB=AA=A8=
+=EB=8B=88=ED=84=B0=EB=A7=81 - =EC=A0=95=EC=B1=85 =ED=98=84=ED=99=A9 =EB=AA=
+=A8=EB=8B=88=ED=84=B0=EB=A7=81</h3>
+<div id=3D"expander-2097734425" class=3D"expand-container">
+<div id=3D"expander-control-2097734425" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-2097734425" class=3D"expand-content">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># =EC=
+=A0=95=EC=B1=85 =ED=98=84=ED=99=A9 =EB=AA=A8=EB=8B=88=ED=84=B0=EB=A7=81
+SELECT /* PolicyMapper.selectPolicyList */ service_seq,
+                                           service_type,
+                                           fds_rule_seq,
+                                           service_name,
+                                           rule_term,
+                                           rule_term_nm,
+                                           nx_tr_cd,
+                                           nx_tr_nm,
+                                           rule_target,
+                                           rule_point_number,
+                                           rule_div_cd,
+                                           rule_condition,
+                                           rule_condition_nm,
+                                           emp_no,
+                                           emp_name,
+                                           cre_dt,
+                                           upd_dt,
+                                           chg_emp_no,
+                                           chg_emp_name,
+                                           editable,
+                                           dept_nm,
+                                           del_yn,
+                                           aml_yn
+FROM (SELECT ROWNUM as rnum,
+             service_seq,
+             service_type,
+             fds_rule_seq,
+             service_name,
+             rule_term,
+             rule_term_nm,
+             nx_tr_cd,
+             nx_tr_nm,
+             rule_target,
+             rule_point_number,
+             rule_div_cd,
+             rule_condition,
+             rule_condition_nm,
+             emp_no,
+             emp_name,
+             cre_dt,
+             upd_dt,
+             chg_emp_no,
+             editable,
+             chg_emp_name,
+             dept_nm,
+             del_yn,
+             aml_yn
+      from (SELECT tb1.service_seq,
+                   tb2.service_type,
+                   tb2.fds_rule_seq,
+                   tb1.service_name,
+                   tb2.rule_term,
+                   DECODE(tb2.rule_term, 'onetime', '=EA=B1=B4=EB=B3=84', '=
+day', '=EB=8B=B9=EC=9D=BC', 'week', '1=EC=A3=BC=EC=9D=BC', 'month', '1=EA=
+=B0=9C=EC=9B=94', 'thatmonth', '=EB=8B=B9=EC=9B=94',
+                          'minute', '1=EB=B6=84', 'hour', '1=EC=8B=9C=EA=B0=
+=84', '=EA=B8=B0=ED=83=80')                                   as rule_term_=
+nm,
+                   tb2.nx_tr_cd,
+                   DECODE(tb2.nx_tr_cd, 'K100', '=EC=A0=81=EB=A6=BD', 'K200=
+', '=ED=95=A0=EC=9D=B8', 'S001', '=EB=91=90=ED=88=BC=EC=A0=81=EB=A6=BD', 'K=
+400', '=EC=82=AC=EC=9A=A9', 'B130', '=EC=83=81=ED=99=98', 'Z350',
+                          '=ED=99=98=EA=B8=89', '=EA=B8=B0=ED=83=80')      =
+                                                      as nx_tr_nm,
+                   tb2.rule_target,
+                   tb2.rule_point_number,
+                   tb2.rule_div_cd,
+                   tb2.rule_condition,
+                   DECODE(tb2.rule_condition, 1, '=EC=B4=88=EA=B3=BC', 2, '=
+=EB=8F=99=EC=9D=BC', 3, '=EB=AF=B8=EB=A7=8C', '=EA=B8=B0=ED=83=80')        =
+           as rule_condition_nm,
+                   tb3.emp_no,
+                   tb3.emp_name,
+                   TO_CHAR(tb2.cre_dt, 'YYYYMMDD')                         =
+                      as cre_dt,
+                   TO_CHAR(tb2.upd_dt, 'YYYYMMDD')                         =
+                      as upd_dt,
+                   tb4.chg_emp_no,
+                   CASE WHEN 'service' =3D ? then decode(?, tb4.chg_emp_no,=
+ 'Y', 'N') ELSE 'Y' END as editable,
+                   (select emp_name from ocbfds_user where emp_no =3D tb4.c=
+hg_emp_no)                 chg_emp_name,
+                   tb5.dept_nm,
+                   tb2.del_yn,
+                   tb1.aml_yn
+            FROM ocbfds_service tb1,
+                 ocbfds_noti_rule tb2,
+                 ocbfds_user tb3,
+                 ocbfds_service_charge_id tb4,
+                 ocbfds_dept tb5
+            WHERE tb1.service_seq =3D tb2.service_seq
+              AND tb1.service_seq =3D tb4.service_seq
+              AND tb3.emp_no =3D tb4.chg_emp_no
+              AND tb3.dept_seq =3D tb5.dept_seq (+)
+              AND tb1.del_yn =3D 'N'
+              AND tb3.dept_seq =3D ?
+            ORDER BY upd_dt desc, cre_dt desc));
+
+# =EC=82=AC=EC=9A=A9=EC=9E=90 =EB=AA=A9=EB=A1=9D =EC=A1=B0=ED=9A=8C
+select A.user_seq, A.emp_no, A.emp_name, B.dept_nm, A.auth
+from ocbfds_user A
+left join ocbfds_dept B
+on A.dept_seq =3D B.dept_seq;</pre>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"id-20FDS=EC=9A=B4=EC=98=81-DBQuery-=EC=9D=BC=EB=B0=98">DB Query -=
+ =EC=9D=BC=EB=B0=98</h1>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=ED=85=8C=EC=9D=B4=EB=B8=94=ED=81=AC=
+=EA=B8=B0=EC=A1=B0=ED=9A=8C">=ED=85=8C=EC=9D=B4=EB=B8=94 =ED=81=AC=EA=B8=B0=
+ =EC=A1=B0=ED=9A=8C</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =ED=
+=8A=B9=EC=A0=95 =EC=82=AC=EC=9A=A9=EC=9E=90 =EC=86=8C=EC=9C=A0 =ED=85=8C=EC=
+=9D=B4=EB=B8=94
+SELECT=20
+    segment_name,=20
+    SUM(bytes) / 1024 / 1024 AS mb
+FROM=20
+    dba_segments=20
+WHERE=20
+    owner =3D 'FDSADM' -- =EC=A1=B0=ED=9A=8C=ED=95=A0 =EC=82=AC=EC=9A=A9=EC=
+=9E=90=EB=AA=85=EC=9C=BC=EB=A1=9C =EB=B3=80=EA=B2=BD
+    AND segment_type in ('TABLE', 'TABLE PARTITION')
+GROUP BY=20
+    segment_name=20
+ORDER BY=20
+    mb DESC;
+
+//  =ED=8A=B9=EC=A0=95 =ED=85=8C=EC=9D=B4=EB=B8=94=EC=9D=98 =ED=81=AC=EA=B8=
+=B0 =EC=A1=B0=ED=9A=8C (=EC=9D=B8=EB=8D=B1=EC=8A=A4 =ED=8F=AC=ED=95=A8)
+SELECT=20
+    owner,=20
+    segment_name,=20
+    segment_type,=20
+    SUM(bytes) / 1024 / 1024 AS mb
+FROM=20
+    dba_segments=20
+WHERE=20
+    owner =3D 'FDSADM'=20
+    AND segment_name =3D 'OCBFDS_TR' -- =EC=A1=B0=ED=9A=8C=ED=95=A0 =ED=85=
+=8C=EC=9D=B4=EB=B8=94=EB=AA=85=EC=9C=BC=EB=A1=9C =EB=B3=80=EA=B2=BD
+GROUP BY=20
+    owner,=20
+    segment_name,=20
+    segment_type=20
+ORDER BY=20
+    segment_type;</pre>
+</div>
+</div>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=ED=85=8C=EC=9D=B4=EB=B8=94=ED=8C=8C=
+=ED=8B=B0=EC=85=98=EC=A1=B0=ED=9A=8C">=ED=85=8C=EC=9D=B4=EB=B8=94 =ED=8C=8C=
+=ED=8B=B0=EC=85=98 =EC=A1=B0=ED=9A=8C</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// =EC=
+=A0=84=EC=B2=B4 =ED=8C=8C=ED=8B=B0=EC=85=98 =EC=A1=B0=ED=9A=8C
+SELECT * FROM USER_PART_TABLES;
+
+// =ED=8A=B9=EC=A0=95 =ED=85=8C=EC=9D=B4=EB=B8=94 =ED=8C=8C=ED=8B=B0=EC=85=
+=98 =EC=A1=B0=ED=9A=8C
+SELECT TABLE_NAME, PARTITION_NAME, HIGH_VALUE, PARTITION_POSITION
+FROM USER_TAB_PARTITIONS
+WHERE TABLE_NAME =3D 'OCBFDS_TR' order by PARTITION_NAME;</pre>
+</div>
+</div>
+<h1 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EC=9A=B4=EC=98=81=ED=8B=B0=EC=BC=93-2=
+026">=EC=9A=B4=EC=98=81 =ED=8B=B0=EC=BC=93-2026</h1>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-FDSdata=EC=9A=94=EC=B2=AD-202606">FDS =
+data =EC=9A=94=EC=B2=AD-202606</h2>
+<ul>
+<li><span class=3D"jira-issue" data-jira-key=3D"OCBFDS-11" data-client-id=
+=3D"SINGLE_66c70ce4-eb7d-3ce9-8070-9705b6b477fa_680902860_2c93ec95442efa530=
+1442efb9a860565"> <a href=3D"https://jira.skplanet.com/browse/OCBFDS-11" cl=
+ass=3D"jira-issue-key"><span class=3D"aui-icon aui-icon-wait issue-placehol=
+der"></span>OCBFDS-11</a> - <span class=3D"summary">Getting issue details..=
+.</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-default =
+issue-placeholder">STATUS</span> </span></li>
+<li>=EC=84=9C=EB=B9=84=EC=8A=A4=3D=EC=A0=9C=ED=9C=B4=EC=B9=B4=EB=93=9C-=ED=
+=95=98=EB=82=98=EC=B9=B4=EB=93=9C_1Q=EC=BF=A0=ED=8F=B0
+<ul>
+<li>=EC=A0=95=EC=B1=85=3D80419,&nbsp;80124</li>
+</ul></li>
+<li>noti =EC=9D=B4=EB=A0=A5 =EC=A1=B0=ED=9A=8C query
+<ul>
+<li>select * from ocbfds_noti_history where fds_rule_seq=3D80419
+<ul>
+<li>and noti_dt&gt;=3DTO_DATE('2025-01-01 00:00:00', 'YYYY-MM-DD HH24:MI:SS=
+') and noti_dt&lt;TO_DATE('2025-02-01 00:00:00', 'YYYY-MM-DD HH24:MI:SS')</=
+li>
+<li>order by noti_dt asc;</li>
+</ul></li>
+<li>select * from ocbfds_noti_history where fds_rule_seq=3D80124
+<ul>
+<li>and noti_dt&gt;=3DTO_DATE('2025-01-01 00:00:00', 'YYYY-MM-DD HH24:MI:SS=
+') and noti_dt&lt;TO_DATE('2025-02-01 00:00:00', 'YYYY-MM-DD HH24:MI:SS')</=
+li>
+<li>order by noti_dt asc;</li>
+</ul></li>
+</ul></li>
+<li>Email, SMS =EB=B0=9C=EC=86=A1 =EC=A1=B0=ED=9A=8C query
+<ul>
+<li>select * from ocbfds_email_history
+<ul>
+<li>where email_send_yn=3D'Y' and cre_dt between TO_DATE('2025-06-11 00:00:=
+00', 'YYYY-MM-DD HH24:MI:SS') and TO_DATE('2025-06-12 00:00:00', 'YYYY-MM-D=
+D HH24:MI:SS');</li>
+</ul></li>
+<li>select * from ocbfds_sms_history
+<ul>
+<li>where sms_send_yn=3D'Y' and cre_dt between TO_DATE('2025-06-11 00:00:00=
+', 'YYYY-MM-DD HH24:MI:SS') and TO_DATE('2025-06-12 00:00:00', 'YYYY-MM-DD =
+HH24:MI:SS');</li>
+</ul></li>
+<li><pre><span style=3D"color: rgb(207,142,109);">=EC=A0=95=EC=B1=85 =EC=83=
+=9D=EC=84=B1,=EC=88=98=EC=A0=95 =EC=95=8C=EB=A6=BC(rulealarm)=EC=9D=80 DB =
+=ED=85=8C=EC=9D=B4=EB=B8=94=EC=97=90 =EA=B8=B0=EB=A1=9D=ED=95=98=EC=A7=80 =
+=EC=95=8A=EA=B3=A0 direct email =EC=A0=84=EC=86=A1<br></span></pre></li>
+</ul></li>
+<li>1004665, =EA=B8=88=EC=9C=B5=EC=A0=95=EB=B3=B4=EC=A0=9C=ED=9C=B4=ED=8C=
+=80 =ED=8C=80=EC=9E=A5 ***@***</li>
+</ul>
+<h1 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EC=9A=B4=EC=98=81=ED=8B=B0=EC=BC=93-2=
+025">=EC=9A=B4=EC=98=81 =ED=8B=B0=EC=BC=93-2025</h1>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EC=84=9C=EB=B9=84=EC=8A=A4=EB=8B=B4=
+=EB=8B=B9=EC=9E=90=EC=9D=BC=EA=B4=84=EB=B3=80=EA=B2=BD"><span style=3D"colo=
+r: rgb(0,0,0);text-decoration: none;">=EC=84=9C=EB=B9=84=EC=8A=A4 =EB=8B=B4=
+=EB=8B=B9=EC=9E=90 =EC=9D=BC=EA=B4=84 =EB=B3=80=EA=B2=BD</span></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT =
+s.* FROM OCBFDS_SERVICE s
+JOIN OCBFDS_SERVICE_CHARGE_ID c on s.SERVICE_SEQ =3D c.SERVICE_SEQ
+WHERE c.CHG_EMP_NO=3D'1000172'
+
+UPDATE OCBFDS_SERVICE_CHARGE_ID
+SET CHG_EMP_NO=3D'1004847'
+WHERE CHG_EMP_NO=3D'1000172'</pre>
+</div>
+</div>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4=
+=EC=97=90=EC=84=9C=EA=B0=80=EB=A7=B9=EC=A0=90=EC=83=9D=EC=84=B1=ED=95=98=EC=
+=98=80=EC=9C=BC=EB=82=98FDS=EB=8D=B0=EC=9D=B4=ED=84=B0=EB=AF=B8=EC=83=9D=EC=
+=84=B1-20250513"><span style=3D"color: rgb(0,0,0);text-decoration: none;">=
+=EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4=EC=97=90=EC=84=9C =EA=B0=80=EB=A7=B9=
+=EC=A0=90 =EC=83=9D=EC=84=B1=ED=95=98=EC=98=80=EC=9C=BC=EB=82=98</span><spa=
+n style=3D"color: rgb(0,0,0);text-decoration: none;"><span>&nbsp;</span>FDS=
+ =EB=8D=B0=EC=9D=B4=ED=84=B0 =EB=AF=B8=EC=83=9D=EC=84=B1-</span>20250513</h=
+2>
+<p>=EC=A7=80=EB=82=9C=EC=A3=BC =EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4=EC=97=
+=90=EC=84=9C =EA=B0=80=EB=A7=B9=EC=A0=90 =EC=83=9D=EC=84=B1 =EC=8B=9C<span>=
+ FDS </span>=EC=A0=95=EB=B3=B4=EB=A5=BC =EC=9E=85=EB=A0=A5=ED=96=88=EB=8B=
+=A4=EA=B3=A0 =ED=95=98=EB=8A=94=EB=8D=B0=EC=9A=94<span>. (</span>=EB=84=A5=
+=EC=8A=A4=EC=BB=A4=EC=8A=A4=EC=97=90=EC=84=9C=EB=8A=94<span> FDS</span>=EC=
+=84=B8=ED=8C=85 =EA=B8=B0=EB=A1=9D=EC=9D=B4 =EB=82=A8=EC=95=84=EC=9E=88=EB=
+=8B=A4=EA=B3=A0 =ED=95=98=EB=84=A4=EC=9A=94<span> )</span></p>
+<p><span>FDS</span>=EC=97=90=EC=84=9C =EC=A1=B0=ED=9A=8C=ED=95=B4=EB=B3=B4=
+=EB=8B=88 =ED=95=B4=EB=8B=B9=EC=A0=95=EB=B3=B4=EA=B0=80 =EC=A1=B0=ED=9A=8C=
+=EA=B0=80 =EC=95=88=EB=90=A9=EB=8B=88=EB=8B=A4<span>.</span></p>
+<p>=EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4=EB=A1=9C=EB=B6=80=ED=84=B0 =EC=A0=
+=95=EB=B3=B4=EA=B0=80 =EC=95=88=EB=84=98=EC=96=B4=EC=98=A8=EA=B1=B4=EC=A7=
+=80 =EB=84=98=EC=96=B4=EC=98=A4=EB=8B=A4 =EC=98=A4=EB=A5=98=EA=B0=80 =EB=82=
+=9C=EA=B1=B4=EC=A7=80 =EB=93=B1=EB=93=B1 =EC=9E=98 =EB=AA=A8=EB=A5=B4=EA=B2=
+=A0=EB=84=A4=EC=9A=94<span>.</span></p>
+<p>=ED=99=95=EC=9D=B8 =EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=
+=A4<span>.</span></p>
+<p><span>&nbsp;</span></p>
+<p><strong>From:</strong> =EC=84=9C=ED=98=84=EC=9B=85(Hyunwoong Suh)/Creati=
+ve=EB=A7=88=EC=BC=80=ED=8C=85=ED=8C=80/SKP &lt;***@***&gt; <br><strong>Sent=
+:</strong> Tuesday, May 13, 2025 2:13 PM<br><strong>To:</strong> =EC=B5=9C=
+=EC=9C=A4=EC=84=9D(YunSeok Choi)/=ED=86=B5=ED=95=A9=EC=9A=B4=EC=98=81=ED=8C=
+=80/SKP &lt;***@***&gt;<br><strong>Cc:</strong> =EC=9D=B4=EC=A0=95=EC=9D=BC=
+(JeongIl Lee)/=ED=86=B5=ED=95=A9=EC=9A=B4=EC=98=81=ED=8C=80/SKP &lt;***@***=
+&gt;<br><strong>Subject:</strong> =EA=B0=80=EB=A7=B9=EC=A0=90 FDS =EB=AF=B8=
+=EB=85=B8=EC=B6=9C =EC=98=A4=EB=A5=98 =EA=B4=80=EB=A0=A8 =EC=A0=95=EB=B3=B4=
+ =EC=A0=84=EB=8B=AC</p>
+<p>=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94 =EB=A7=A4=EB=8B=88=EC=A0=
+=80=EB=8B=98</p>
+<p>=EB=B0=A9=EA=B8=88 =EC=9E=90=EB=A6=AC=EC=97=90=EC=84=9C =EB=A7=90=EC=94=
+=80 =EB=93=9C=EB=A0=B8=EB=8D=98 =EA=B0=80=EB=A7=B9=EC=A0=90<span> FDS </spa=
+n>=EB=AF=B8=EB=85=B8=EC=B6=9C =EC=98=A4=EB=A5=98 =EA=B4=80=EB=A0=A8=ED=95=
+=B4=EC=84=9C =EC=9A=94=EC=B2=AD=ED=95=98=EC=8B=A0 =EC=A0=95=EB=B3=B4 =EC=A0=
+=84=EB=8B=AC =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span>.</span></p>
+<p><br></p>
+<p>=EA=B0=80=EB=A7=B9=EC=A0=90=EB=AA=85<span>: </span>=EC=98=A4=ED=82=A4=ED=
+=81=B4=EB=9F=BD<span>_</span>=EC=8B=9C=ED=81=AC=EB=A6=BF=EC=BF=A0=ED=8F=B0 =
+=EC=A0=81=EB=A6=BD</p>
+<p>=EA=B0=80=EB=A7=B9=EC=A0=90=EB=B2=88=ED=98=B8<span>: 89007124</span></p>
+<p>=EB=93=B1=EB=A1=9D=EC=9D=BC=EC=9E=90<span>: 5/8 (</span>=EB=AA=A9<span>)=
+ </span>=EC=98=A4=ED=9B=84</p>
+<p><span><br>
+FDS</span>=EC=A0=95=EC=B1=85<span> (NXCUS </span>=EC=83=81=EC=97=90 =EB=85=
+=B8=EC=B6=9C<span>): <br></span>=EB=8C=80=EC=83=81<span>: </span>=ED=9A=8C=
+=EC=9B=90</p>
+<p>=EC=A3=BC=EA=B8=B0<span>: 1</span>=EC=9D=BC</p>
+<p>=EA=B1=B0=EB=9E=98<span>: </span>=EC=A0=81=EB=A6=BD</p>
+<p>=EA=B8=B0=EC=A4=80<span>: </span>=ED=8F=AC=EC=9D=B8=ED=8A=B8</p>
+<p>=EA=B8=88=EC=95=A1<span>/</span>=ED=9A=9F=EC=88=98<span>: 550000</span>=
+=EC=9B=90</p>
+<p>=EC=A1=B0=EA=B1=B4<span>: </span>=EC=B4=88=EA=B3=BC</p>
+<h3 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EC=9B=90=EC=9D=B8=EB=B6=84=EC=84=9D">=
+=EC=9B=90=EC=9D=B8 =EB=B6=84=EC=84=9D</h3>
+<ul>
+<li>=EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4=EC=97=90=EC=84=9C FDS=EB=A1=9C =EC=
+=A0=95=EC=B1=85 =EC=83=9D=EC=84=B1 =EC=9A=94=EC=B2=AD=EC=8B=9C MctId(=EC=A0=
+=9C=ED=9C=B4=EC=82=ACID) =EB=98=90=EB=8A=94 =EA=B0=80=EB=A7=B9=EC=A0=90=EB=
+=B2=88=ED=98=B8=EB=A1=9C =ED=95=A0 =EC=88=98 =EC=9E=88=EC=9D=8C</li>
+<li>=EC=B5=9C=EC=B4=88 =EC=A0=9C=ED=9C=B4=EC=82=ACID, =EC=B5=9C=EC=B4=88 =
+=EA=B0=80=EB=A7=B9=EC=A0=90=EB=B2=88=ED=98=B8 =EC=83=9D=EC=84=B1=EC=9D=B8 =
+=EA=B2=BD=EC=9A=B0=EB=A7=8C FDS=EB=A1=9C =EC=9A=94=EC=B2=AD</li>
+<li>=EB=AA=A8=EB=93=A0 =EA=B0=80=EB=A7=B9=EC=A0=90=EB=B2=88=ED=98=B8=EB=8A=
+=94 =EC=83=81=EC=9C=84=EC=97=90 MctId=EB=A5=BC =EA=B0=80=EC=A7=84=EB=8B=A4=
+=EA=B3=A0 =ED=95=A8</li>
+<li>FDS =EC=A0=95=EC=B1=85 =EC=83=9D=EC=84=B1 =EC=A3=BC=EC=86=8C - /rule/re=
+gister (PolicyRuleController)</li>
+</ul>
+<h3 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EB=8B=B5=EB=B3=80=EB=82=B4=EC=9A=A9">=
+=EB=8B=B5=EB=B3=80 =EB=82=B4=EC=9A=A9</h3>
+<p>=EC=9D=B4=EB=AF=B8 =EB=93=B1=EB=A1=9D=EB=90=9C =EC=A0=9C=ED=9C=B4=EC=82=
+=AC=EB=9D=BC =EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4=EC=97=90=EC=84=9C <span>F=
+DS</span>=EB=A1=9C =EC=A0=95=EC=B1=85 =EB=93=B1=EB=A1=9D =EC=9A=94=EC=B2=AD=
+=EC=9D=B4 =EB=B0=9C=EC=83=9D=ED=95=98=EC=A7=80 =EC=95=8A=EC=95=98=EB=8B=A4=
+=EA=B3=A0 =ED=95=A9=EB=8B=88=EB=8B=A4<span>.</span></p>
+<p><span>&nbsp;</span></p>
+<p>89007124&nbsp;=EA=B0=80=EB=A7=B9=EC=A0=90 =EC=83=81=EC=9C=84=EC=9D=98 =
+=EC=A0=9C=ED=9C=B4=EC=82=AC =EC=BD=94=EB=93=9C<span>&nbsp;I10923&nbsp;</spa=
+n>=EC=9C=BC=EB=A1=9C =EC=9D=B4=EB=AF=B8 =EB=93=B1=EB=A1=9D=EB=90=9C =EC=A0=
+=95=EC=B1=85=EC=9D=B4 =EC=A1=B0=ED=9A=8C=EB=90=98=EC=96=B4</p>
+<p>=EB=84=A5=EC=8A=A4=EC=BB=A4=EC=8A=A4<span>&nbsp;FDS&nbsp;</span>=EC=B2=
+=B4=ED=81=AC =EB=90=9C =EA=B2=83=EC=9C=BC=EB=A1=9C =ED=8C=8C=EC=95=85 =EB=
+=90=A9=EB=8B=88=EB=8B=A4<span>. (&nbsp;</span>=EC=84=9C=EB=B9=84=EC=8A=A4=
+=EB=AA=85<span>:&nbsp;</span>=EC=87=BC=ED=95=91=ED=83=AD =ED=99=9C=EC=84=B1=
+=ED=99=94=ED=94=84=EB=A1=9C=EB=AA=A8=EC=85=98<span>&nbsp;)</span></p>
+<p>=ED=95=B4=EB=8B=B9 =EA=B0=80=EB=A7=B9=EC=A0=90=EC=9C=BC=EB=A1=9C =EB=94=
+=B0=EB=A1=9C =EA=B5=AC=EB=B6=84=ED=95=98=EC=97=AC<span>&nbsp;FDS&nbsp;</spa=
+n>=EC=84=A4=EC=A0=95=ED=95=98=EB=A0=A4=EB=A9=B4<span>, FDS&nbsp;</span>=EC=
+=96=B4=EB=93=9C=EB=AF=BC=EC=97=90=EC=84=9C =EC=8B=A0=EA=B7=9C=EB=A1=9C =EC=
+=B6=94=EA=B0=80 =EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span=
+>.&nbsp;</span></p>
+<p><br></p>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-FDS=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=
+=B8=EC=B4=88=EA=B8=B0=ED=99=94=EC=98=A4=EB=A5=98(20250925)"><span>FDS =EB=
+=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EC=B4=88=EA=B8=B0=ED=99=94 =EC=98=A4=EB=
+=A5=98 (20250925)</span></h2>
+<p><span class=3D"jira-issue" data-jira-key=3D"OCBWEBVIEW-5943" data-client=
+-id=3D"SINGLE_66c70ce4-eb7d-3ce9-8070-9705b6b477fa_680902860_2c93ec95442efa=
+5301442efb9a860565"> <a href=3D"https://jira.skplanet.com/browse/OCBWEBVIEW=
+-5943" class=3D"jira-issue-key"><span class=3D"aui-icon aui-icon-wait issue=
+-placeholder"></span>OCBWEBVIEW-5943</a> - <span class=3D"summary">Getting =
+issue details...</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-l=
+ozenge-default issue-placeholder">STATUS</span> </span></p>
+<p>FDS =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EC=B4=88=EA=B8=B0=ED=99=94 =EC=
+=B2=98=EB=A6=AC =ED=96=88=EB=8A=94=EB=8D=B0</p>
+<p>=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=B2=BD =ED=8C=9D=EC=97=
+=85=EC=97=90=EC=84=9C =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B6=88=EC=9D=
+=BC=EC=B9=98 =EB=A9=94=EC=8B=9C=EC=A7=80 =EB=85=B8=EC=B6=9C=EC=9D=B4 =EB=90=
+=9C=EB=8B=A4=EA=B3=A0 =ED=95=98=EB=8A=94=EB=8D=B0</p>
+<p>=ED=99=95=EC=9D=B8 =EB=B6=80=ED=83=81=EB=93=9C=EB=A6=AC=EA=B2=A0=EC=8A=
+=B5=EB=8B=88=EB=8B=A4<span>.</span></p>
+<p><span>=EC=82=AC=EB=B2=88-1001876</span></p>
+<ul>
+<li>/user/login_form.skp - =EC=B5=9C=EC=B4=88 =EB=A1=9C=EA=B7=B8=EC=9D=B8 =
+=ED=99=94=EB=A9=B4</li>
+<li>/user/login.skp - =EB=A1=9C=EA=B7=B8=EC=9D=B8 =EC=9A=94=EC=B2=AD=ED=9B=
+=84 =EC=B4=88=EA=B8=B0=ED=99=94=EB=90=9C =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=
+=B8 =EC=9E=85=EB=A0=A5 =ED=99=94=EB=A9=B4 =ED=91=9C=EC=8B=9C</li>
+<li>/user/change_password.skp - =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=
+=80=EA=B2=BD =EC=9A=94=EC=B2=AD=ED=9B=84 =EB=A1=9C=EA=B7=B8=EC=9D=B8 =EC=B2=
+=98=EB=A6=AC</li>
+</ul>
+<h2 id=3D"id-20FDS=EC=9A=B4=EC=98=81-=EB=8B=B4=EB=8B=B9=EC=9E=90=EB=AA=A9=
+=EB=A1=9D=EC=B6=94=EC=B6=9C">=EB=8B=B4=EB=8B=B9=EC=9E=90 =EB=AA=A9=EB=A1=9D=
+ =EC=B6=94=EC=B6=9C</h2>
+<p>=EC=A3=84=EC=86=A1=ED=95=98=EC=A7=80=EB=A7=8C =EB=AF=B8=EC=82=AC=EC=9A=
+=A9 =EA=B3=84=EC=A0=95=EC=9D=80 =EC=A0=9C=EC=99=B8=ED=95=B4=EC=84=9C =EB=8B=
+=A4=EC=8B=9C =EB=B3=B4=EB=82=B4=EC=A3=BC=EC=8B=A4=EC=88=98 =EC=9E=88=EC=9D=
+=84=EA=B9=8C=EC=9A=94?</p>
+<ul>
+<li>select u.EMP_NO, u.EMP_NAME, d.dept_nm from OCBFDS_USER u</li>
+<li>left join OCBFDS_DEPT d on u.dept_seq =3D d.dept_seq</li>
+<li>where u.auth!=3D'disuse';</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_2269_706500722.1791868078966--

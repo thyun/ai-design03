@@ -1,0 +1,267 @@
+echo ".zshrc"
+autoload -Uz compinit
+compinit
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# jdk, gradle, maven
+export PS1="%n@%m %0~ %# " # zsh - https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html#Shell-state
+#export PS1="%n@%m %1~ %# "
+#export PS1="\u@\h:\w \$ "
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_8_HOME=$(/usr/libexec/java_home -v 1.8.0)
+export JAVA_11_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA_17_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_21_HOME=$(/usr/libexec/java_home -v 21)
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias java11='export JAVA_HOME=$JAVA_11_HOME'
+alias java17='export JAVA_HOME=$JAVA_17_HOME'
+alias java21='export JAVA_HOME=$JAVA_21_HOME'
+#export GRADLE_HOME=/Users/1001291/Desktop/dev/gradle-8.5
+#export GRADLE_HOME=/Users/1001291/Desktop/dev/gradle-7.6.1
+export GRADLE_HOME=/Users/1001291/Desktop/dev/gradle-7.6
+#export GRADLE_HOME=/Users/1001291/Desktop/dev/gradle-5.4.1
+#export GRADLE_HOME=/Users/1001291/Desktop/dev/gradle-4.10
+#export GRADLE_HOME=/Users/1001291/Desktop/dev/gradle-4.9
+export MAVEN_HOME=/Users/1001291/Desktop/dev/apache-maven-3.6.3
+export GOPATH=/Users/1001291/go
+export PATH=/usr/local/opt/mysql-client/bin:$HOME/bin:$HOME/.local/bin:$GRADLE_HOME/bin:$MAVEN_HOME/bin:$GOPATH/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH
+#export PATH=/usr/local/opt/mysql-client/bin:$HOME/bin:$HOME/.local/bin:$MAVEN_HOME/bin:$GOPATH/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH
+#export PATH=/usr/local/opt/mysql-client/bin:$HOME/bin:$HOME/.local/bin:$GOPATH/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH
+
+export SECRET_KEY_BASE=c2155b979a673d56840d016c880b02c37215d6ada6e5ae79c4db92a981a536d0b78578ed216b16e868bd669b60b3d3a76d0a79905c06cc7fb0fa7c1658440150
+export ZOOKEEPER=localhost:2181
+export BROKER=localhost:9092
+export ZOOKEEPER_DEV=172.19.115.154:2181
+export BROKER_DEV=172.19.115.154:9092
+
+#export LANG=C 	# default LANG=ko_KR.UTF-8
+#export AWS_PROFILE=ssearch-dev-eks-accesskey - IntelliJ 에서 dev_srch_searchapi_app 사용해야 함
+#export KUBECONFIG=~/.kube/config-search-dev
+
+# kubectl zsh completion
+alias k='kubectl'
+# source <(kubectl completion zsh)
+# zsh 설정 - echo 'source <(kubectl completion zsh)' >>~/.kubectl_completion_zsh
+# bash 설정 - echo 'source <(kubectl completion bash)' >>~/.kubectl_completion_bash
+source $HOME/.kubectl_completion_zsh
+#complete -F __start_kubectl k
+
+# terraform bash completion
+#complete -C /usr/local/bin/terraform terraform
+
+# alias
+alias ls='ls -skF'
+alias history='history -100'
+alias history2='fc -ln -100'
+alias dusort='du -kd0 * | sort -nk1'
+alias dusorth='du -kd0 .[a-z]* | sort -nk1'
+alias nstat='netstat -antu' # linux = -antupe (p: process, e: detail)
+alias nstat2='netstat -antl' # listen port
+alias clear='clear -x'
+alias more='more -R'
+alias less='less -R'
+alias vi-indent='set paste; set noai'
+alias tar-env='tar cvf config.tar .bash* .aws .vim* .gitconfig .saml* .tmux* .kube/config* .kubectl* bin pem'
+alias split -C 1G --numeric-suffixes input_filename output_prefix # linux
+alias diff-ex='diff -r --exclude="target" dir1 dir2'
+alias wc-src='find . -path "*/build" -prune -o \( -name "*.java" -o -name "*.kt" -o -name "*.groovy" \) -print | xargs wc -l'
+alias wc-src-old='wc $(find . -name "*.java" -o -name "*.kt" -o -name "*.groovy")'
+alias date='date "+%Y-%m-%d %H:%M:%S"'
+alias wh='while true; do date; sleep 10; done;'
+
+# alias dev tool
+alias java-list='/usr/libexec/java_home -V; jenv versions'
+alias mvn-wrapper='mvn -N io.takari:maven:wrapper'
+alias mvn-deps='mvn dependency:tree > deps'
+alias mvn-pl='mvn install -pl ocbfds-batch -am -DskipTests' # ocbfds-backend project
+alias mvnw-build='./mvnw -DskipTests package'
+alias mvnw-build2='./mvnw -Dmaven.test.skip=true package'
+alias mvnw-deps='./mvnw dependency:tree > deps'
+alias glog="git log --graph --format=format:'%C(ul cyan)%h%C(reset) |%C(auto)%d%C(reset) %C(white)%ai%C(reset) (%ar)%n''          %C(white)%s%C(reset) - %C(ul cyan)%an%C(reset)' --all --date-order"
+alias glogb="git log --graph --format=format:'%C(ul cyan)%h%C(reset) |%C(auto)%d%C(reset) %C(white)%ai%C(reset) (%ar)%n''          %C(white)%s%C(reset) - %C(ul cyan)%an%C(reset)'"
+alias glog1="git log --graph --format=format:'%C(ul cyan)%h%C(reset) |%C(auto)%d%C(reset) %C(white)%ai%C(reset) (%ar)%n''          %C(white)%s%C(reset) - %C(ul cyan)%an%C(reset)' --all"
+alias glogf='git log -p application/admin-app/src/main/kotlin/com/skp/joypot/admin/api/bill/controller/BillController.kt' # 특정 파일 변경 이력
+alias gmerge-dry='git merge --no-commit --no-ff'
+alias gmerge-dry-example='git checkout main; git merge --no-commit --no-ff develop; git merge --abort'
+alias gmerge-base='git merge base <branch01> master'
+alias gtag-list="git tag" # http://minsone.github.io/git/git-addtion-and-modified-delete-tag
+alias gtag-list-remote="git ls-remote --tags origin"
+alias gtag-create="git tag v2023-09-21 3c7359e"
+alias gtag-push="git push origin v2023-09-21"
+alias gtag-push-all="git push origin --tags"
+alias gtag-del="git tag -d v2023-09-21"
+alias gtag-del-origin="git push origin :v2023-09-21"
+alias gunstage='git reset HEAD -- '
+alias gunstage-ex='git reset HEAD -- test-client/node_modules'
+alias gunstage-file='git reset HEAD Foo.java'
+alias gremote-commit-delete='git checkout develop; git reset --hard {commit}; git push --force'
+alias gremote-branch-delete='git push origin -d test-perf'
+alias gdel-untracked='git clean -fd'
+alias gpull-all='git checkout dev; git pull; git checkout alp; git pull; git checkout master; git pull'
+alias gpull-dev='git checkout dev; git pull'
+alias gpull-dev2='git fetch -u origin dev:dev'
+alias gpull-alp='git checkout alp; git pull'
+alias gpull-alp2='git fetch -u origin alp:alp'
+alias gpull-master='git checkout master; git pull'
+alias gpull-master2='git fetch -u origin master:master'
+alias gpull-main='git checkout main; git pull'
+alias gpull-release2='git fetch -u origin release/0.1:release/0.1'
+alias gsquash='git rebase -i HEAD~2' # 2개 commit 합치기 https://korband.tistory.com/33
+alias gcherrypicks='git cherry-pick f78252e^..0a89feb' # start ~ end (including)
+alias gbranch-del='git branch | grep "JOYPOT-[2-9]" | xargs git branch -d'
+alias gbranch-del-remote='git push origin -d feature/OCBWEBVIEW-6150'
+alias gmerge-base='git merge-base master feature/JOYPOT-152'
+alias gbranch-contains='git branch --contains 0403'
+
+alias grbuild='./gradlew build'
+alias grdeps='./gradlew dependencies > deps'
+alias grbuild-main-api='./gradlew :application:main-api:build'
+alias grdeps-main-api='./gradlew :application:main-api:dependencies > deps'
+
+alias aws-sts='aws sts get-caller-identity'
+alias aws-s3-cp-dev='aws s3 cp auto_complete_keyword.py s3://dev-srch-seoul-glue-batch/; aws s3 cp no_result_keyword.py s3://dev-srch-seoul-glue-batch/'
+alias aws-s3-cp-prd='aws s3 cp auto_complete_keyword.py s3://prod-srch-seoul-glue-batch/; aws s3 cp no_result_keyword.py s3://prod-srch-seoul-glue-batch/'
+alias aws-ecr-login='aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin 175979101058.dkr.ecr.ap-northeast-2.amazonaws.com'
+alias docker-login='docker login dev.pcr.kr' # 사내 docker repository
+alias aws-assume-role-only='aws sts assume-role --role-arn arn:aws:iam::175979101058:role/dev-srch-common-role --role-session-name "client-session" --output json'
+alias aws-assume-role='(
+AWS_ASSUME_ROLE_OUTPUT="$(aws sts assume-role --role-arn arn:aws:iam::175979101058:role/dev-srch-common-role --role-session-name client-session --output json)"
+VALUE1="$(echo ${AWS_ASSUME_ROLE_OUTPUT} | jq -r '.Credentials.AccessKeyId')"
+VALUE2="$(echo ${AWS_ASSUME_ROLE_OUTPUT} | jq -r '.Credentials.SecretAccessKey')"
+VALUE3="$(echo ${AWS_ASSUME_ROLE_OUTPUT} | jq -r '.Credentials.SessionToken')"
+echo "export AWS_ACCESS_KEY_ID=${VALUE1}"
+echo "export AWS_SECRET_ACCESS_KEY=${VALUE2}"
+echo "export AWS_SESSION_TOKEN=${VALUE3}"
+aws configure set aws_access_key_id --profile default ${VALUE1}
+aws configure set aws_secret_access_key --profile default ${VALUE2}
+aws configure set aws_session_token --profile default ${VALUE3}
+)'
+# 상용 assume role은 SVDI내 aws-cloud9-prd 계정 cloud9내에서만 수행 가능 (SVDI내 윈도우 환경에서도 안됨)
+#alias aws-assume-role-prd='(
+#AWS_ASSUME_ROLE_OUTPUT="$(aws sts assume-role --role-arn arn:aws:iam::456350226269:role/prod-srch-common-role --role-session-name client-session --output json)"
+#VALUE1="$(echo ${AWS_ASSUME_ROLE_OUTPUT} | jq -r '.Credentials.AccessKeyId')"
+#VALUE2="$(echo ${AWS_ASSUME_ROLE_OUTPUT} | jq -r '.Credentials.SecretAccessKey')"
+#VALUE3="$(echo ${AWS_ASSUME_ROLE_OUTPUT} | jq -r '.Credentials.SessionToken')"
+#echo "export AWS_ACCESS_KEY_ID=${VALUE1}"
+#echo "export AWS_SECRET_ACCESS_KEY=${VALUE2}"
+#echo "export AWS_SESSION_TOKEN=${VALUE3}"
+#aws configure set aws_access_key_id --profile default ${VALUE1}
+#aws configure set aws_secret_access_key --profile default ${VALUE2}
+#aws configure set aws_session_token --profile default ${VALUE3}
+#)'
+alias aws-unset='unset AWS_PROFILE; unset AWS_ACCESS_KEY_ID; unset AWS_SECRET_ACCESS_KEY; unset AWS_SESSION_TOKEN'
+
+alias colima-start='colima start --disk 500'
+alias colima-stop='colima stop'
+alias docker-start='docker start'
+alias docker-stop='docker stop 7a7ec8441fc1; docker rm 7a7ec8441fc1'
+alias docker-ps='docker ps'
+alias docker-kill='docker kill 87425ebbd325'
+alias docker-container-rm='docker container rm 6a526a8b390d'
+alias docker-exec='docker exec -it 87425ebbd325 /bin/bash'
+alias kc-update-config='aws eks --region ap-northeast-2 update-kubeconfig --name dev-srch-eks-latest' # aws configure 수행후
+alias kc-search-dev='unset AWS_PROFILE; export KUBECONFIG=~/.kube/config-search-dev'	# aws/eksctl/kubectl cli
+alias kc-search-dev-jenkins='export AWS_PROFILE=dev_srch_jenkins; export KUBECONFIG=~/.kube/config-search-dev'
+alias kc-search-prd='unset AWS_PROFILE; export KUBECONFIG=~/.kube/config-search-prd'	# aws/eksctl/kubectl cli
+alias kc-search-prd-jenkins='export AWS_PROFILE=search-prd-accesskey-jenkins; export KUBECONFIG=~/.kube/config-search-prd'
+alias kc-search-ncloud='export KUBECONFIG=~/.kube/config-ncloud'
+alias kc-sungsu-plab='export KUBECONFIG=~/.kube/config-sungsu-plab'
+alias kc-sungsu-thyun='export KUBECONFIG=~/.kube/config-sungsu-thyun'
+alias saml-dev='saml2aws login --idp-account="search-dev"' # ~/.saml2aws search-dev
+alias saml-prd='saml2aws login --idp-account="search-prd"' # ~/.saml2aws search-prd
+
+export NS=server
+alias kn='kubectl -n $NS'
+alias k-secret='kubectl -n argocd get secret repo-1078848527 -o jsonpath='{.data.sshPrivateKey}' | base64 -d'
+alias k-run-curl='kubectl run curl --image=radial/busyboxplus:curl -i --tty'
+alias k-attach-curl='kubectl attach curl-66bdcf564-krvw2 -c curl -i -t'
+alias k-aws-auth='kubectl -n kube-system get configmap aws-auth -o yaml'
+alias k-kustomize='kubectl kustomize overlays/dev'	# yaml outout 생성
+alias k-kustomize-apply='kubectl apply -k overlays/dev'
+alias kn-pods='kubectl -n $NS get pods -o wide'
+alias kn-pods-watch='kubectl -n $NS get pods -w | while read line ; do echo -e "$(date +"%Y-%m-%d %H:%M:%S")\t $line" ; done'
+alias kn-exec1='kubectl -n server exec -it prod-search-api-84b9d9f57f-6nspv -- /bin/sh'
+alias kn-exec2='kubectl -n server exec -it prod-search-api-84b9d9f57f-6nspv -c nginx -- /bin/sh'
+alias kn-exec3='kubectl -n server exec -it prod-search-api-84b9d9f57f-6nspv --container=nginx -- /bin/sh'
+
+alias keras-act='source ~/Projects/keras_talk/venv/bin/activate'
+alias keras-deact='deactivate'
+
+# alias db tool
+alias es-pw="kubectl get secret quickstart-es-elastic-user -o=jsonpath='{.data.elastic}' | base64 --decode; echo"	# user=elastic
+#alias es-pw="kubectl get secret quickstart-es-elastic-user -o go-template='{{.data.elastic | base64decode}}'"	# user=elastic
+alias es-port-forward='kubectl port-forward service/quickstart-es-http 9200'
+alias es-curl='curl -u "elastic:$PASSWORD" -k "https://localhost:9200"'
+alias es-kb-port-forward='kubectl port-forward service/quickstart-kb-http 5601'
+alias redisc='redis-cli -p 7001 -c'
+alias redisc-get='redis-cli -p 7001 -c get visit:count'
+alias redisc-keys='redis-cli --cluster call 127.0.0.1:7001 keys JACKPOT_GIFT_STOCK::117*'
+alias mysql-dev='mysql -h 10.40.128.64 -P 4686 -p -u search_app search_db'
+
+# python
+alias pipdeptree-install='pip install pipdeptree'
+alias pip-freeze='pip freeze'
+alias conda-create='conda create -n nlu python=3.10'
+alias conda-remove='conda remove --name test-env --all'
+alias conda-list='conda env list'
+
+# nlu
+# local tunneling - local 노트북 -> tunneling 서버 -> 외부 접근 (또는 tunneling 서버를 localhost:port로 접근)
+#   ssh -L 8080:localhost:8080 thyun@10.202.20.150
+#   local 접근 - local port 8080 -> 10.202.20.150 -> localhost:8080 (tunneling 서버-10.202.20.150 서버)
+# remote tunneling - 외부 -> tunneling 서버 -> local 노트북 접근
+#   ssh -R 8080:127.0.0.1:3000 thyun@10.202.20.150
+#   remote 접근 - 10.202.20.150:8080 -> 127.0.0.1:3000 (local 노트북)
+alias jn='jupyter notebook &'
+alias nlu-ssh='ssh thyun@10.202.20.150'
+alias nlu-ssh-8080='ssh -L 8080:localhost:8080 thyun@10.202.20.150' # jupyter notebook --no-browser --ip=10.202.20.150 --port=8080
+alias nlu-ssh-3000='ssh -L 3000:localhost:3000 thyun@10.202.20.150'
+alias nlu-ssh-8000='ssh -L 8000:localhost:8000 thyun@10.202.20.150'
+alias nlu-ssh-8008='ssh -L 8008:localhost:8008 thyun@10.202.20.150'
+alias nlu-sftp='sftp thyun@10.202.20.150'
+alias sftp-pem='sftp -o IdentityFile=~/Desktop/dev/pem/pmon.pem -P 443 cloud@114.202.246.217'
+
+# react, nextjs
+alias react-create-app='npm create vite@latest my-react-app -- --template react-ts'
+alias react-create-app02='npx create-react-app my-react-app'
+alias react-latest-version='npm view react version' # remote repository version
+alias react-version='npm list react' # local installed version
+alias nextjs-create-app='npx create-next-app@latest'
+
+# npm
+alias npm-view='npm view stomp versions'
+
+# virtualenv
+#source ./venv/bin/activate  # sh, bash, ksh, or zsh
+#deactivate  # don't exit until you're done using TensorFlow
+
+# jenv
+#export PATH="$HOME/.jenv/shims:$PATH"
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+#export PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/1001291/Library/Android/sdk/platform-tools:${PATH}"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+conda activate python3.12
+
+# node
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
